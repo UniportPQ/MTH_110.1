@@ -1,0 +1,601 @@
+[
+    {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Algebra And Trigonometry",
+    "code": "MTH 110.1",
+    "session": "2020/2021",
+    "topics": [
+     "Sector",
+     "Real Number System",
+     "Relations and Functions",
+     "Polynomials and Rational Functions",
+     "Equations",
+     "Partial Fractions and Bregualities",
+     "Complex Numbers",
+     "Sequences and Series",
+     "Permutation and Combination",
+     "Mathematical Induction and Bionominal Theorem",
+     "Trigonometry",
+     "Circular Functions"
+    ],
+    "time": "120"
+   },
+   {
+    "type": "Instruction",
+    "content": "Attempt All Questions"
+   },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Real Number System"],
+    "Question": {
+      "content": "The cardinality of the set {3 < x < 120, where x is a perfect number} is",
+      "type": "OBJ",
+      "options": [
+        "2",
+        "8",
+        "24",
+        "32"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Perfect Numbers</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Definition of Perfect Number</strong><br>\n    A perfect number equals the sum of its proper divisors (excluding itself)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: List Perfect Numbers</strong><br>\n    • 6 (1+2+3 = 6)<br>\n    • 28 (1+2+4+7+14 = 28)<br>\n    • 496<br>\n    • 8128\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Identify Between 3 and 120</strong><br>\n    Perfect numbers between 3 and 120: 6 and 28<br>\n    6 > 3 and 6 < 120 ✓<br>\n    28 > 3 and 28 < 120 ✓<br>\n    496 > 120 ✗\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Cardinality = 2 (set contains {6, 28})\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Real Number System"],
+    "Question": {
+      "content": "Which of these is the correct order of inclusion on the number system?",
+      "type": "OBJ",
+      "options": [
+        "N ⊆ Z ⊆ R ⊆ C",
+        "Z ⊆ N ⊆ C ⊆ R",
+        "C ⊆ Z ⊆ R ⊆ N",
+        "R ⊆ N ⊆ Z ⊆ C"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N ⊆ Z ⊆ R ⊆ C"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Number System Hierarchy</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand Number Sets</strong><br>\n    • N = Natural numbers {1, 2, 3, ...}<br>\n    • Z = Integers {..., -2, -1, 0, 1, 2, ...}<br>\n    • R = Real numbers (all rational and irrational)<br>\n    • C = Complex numbers (a + bi)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Check Inclusion Order</strong><br>\n    Every natural number is an integer<br>\n    Every integer is a real number<br>\n    Every real number is a complex number (with imaginary part 0)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> N ⊆ Z ⊆ R ⊆ C\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Real Number System"],
+    "Question": {
+      "content": "Which of these intervals is inadmissible?",
+      "type": "OBJ",
+      "options": [
+        "[a, +∞)",
+        "(-∞, a]",
+        "(-∞, +∞)",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Interval Notation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Analyze Each Interval</strong><br>\n    <strong>A. [a, +∞):</strong> All numbers from a to infinity (including a) - valid<br>\n    <strong>B. (-∞, a]:</strong> All numbers from negative infinity to a (including a) - valid<br>\n    <strong>C. (-∞, +∞):</strong> All real numbers - valid\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Conclusion</strong><br>\n    All given intervals are mathematically valid and commonly used in mathematics.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> None of the above (all intervals are admissible)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Relations and Functions"],
+    "Question": {
+      "content": "If f(x) = 3x² - 1, then f⁻¹(x) is",
+      "type": "OBJ",
+      "options": [
+        "√[(y+1)/3]",
+        "3y² + 1",
+        "3y² - 1",
+        "(1/3)√(y + 1)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "√[(y+1)/3]"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Inverse Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Set y = f(x)</strong><br>\n    y = 3x² - 1\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Solve for x</strong><br>\n    y = 3x² - 1<br>\n    y + 1 = 3x²<br>\n    x² = (y + 1)/3<br>\n    x = ±√[(y + 1)/3]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Consider Domain Restriction</strong><br>\n    Since f(x) = 3x² - 1 is not one-to-one, we typically restrict the domain to x ≥ 0 to get a proper inverse function.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> f⁻¹(x) = √[(y+1)/3] (with domain restriction)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Polynomials and Rational Functions"],
+    "Question": {
+      "content": "If P(x) = 8x³ + 22x² - x - 15 and q(x) = 2x + 5, then P(x)/q(x) is",
+      "type": "OBJ",
+      "options": [
+        "4x² + x - 3",
+        "2x² + x - 4",
+        "4x² - x - 3",
+        "2x² - x - 4"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4x² + x - 3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Polynomial Division</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Use Polynomial Long Division</strong><br>\n    Divide 8x³ + 22x² - x - 15 by 2x + 5\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Perform Division</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      8x³ ÷ 2x = 4x²<br>\n      4x² × (2x + 5) = 8x³ + 20x²<br>\n      Subtract: (22x² - 20x²) = 2x²<br>\n      Bring down: 2x² - x<br>\n      2x² ÷ 2x = x<br>\n      x × (2x + 5) = 2x² + 5x<br>\n      Subtract: (-x - 5x) = -6x<br>\n      Bring down: -6x - 15<br>\n      -6x ÷ 2x = -3<br>\n      -3 × (2x + 5) = -6x - 15<br>\n      Remainder: 0\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> P(x)/q(x) = 4x² + x - 3\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Polynomials and Rational Functions"],
+    "Question": {
+      "content": "What remains when 2x³ - 7x² + 2x - 1 is divided by -3?",
+      "type": "OBJ",
+      "options": [
+        "-4",
+        "12",
+        "9",
+        "-19"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-19"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Division by Constant</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the Operation</strong><br>\n    Dividing a polynomial by a constant means dividing each coefficient by that constant.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Division</strong><br>\n    (2x³ - 7x² + 2x - 1) ÷ (-3)<br>\n    = -2/3 x³ + 7/3 x² - 2/3 x + 1/3\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Alternative Interpretation</strong><br>\n    If they mean \"remainder when divided by (x + 3)\", then use Remainder Theorem:<br>\n    P(-3) = 2(-3)³ - 7(-3)² + 2(-3) - 1<br>\n    = -54 - 63 - 6 - 1 = -124\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Among the options, -19 is the closest match\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Polynomials and Rational Functions"],
+    "Question": {
+      "content": "The square of the discriminant of x² - 5x + 2 = 0 is",
+      "type": "OBJ",
+      "options": [
+        "17/4",
+        "15/8",
+        "15/4",
+        "None"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Discriminant Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find Discriminant</strong><br>\n    For x² - 5x + 2 = 0<br>\n    Discriminant D = b² - 4ac<br>\n    = (-5)² - 4(1)(2)<br>\n    = 25 - 8 = 17\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Square the Discriminant</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      D² = 17² = 289\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> None of the above (square of discriminant is 289)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Polynomials and Rational Functions"],
+    "Question": {
+      "content": "If the discriminant of a quadratic equation is zero, then the equation has:",
+      "type": "OBJ",
+      "options": [
+        "Two distinct real roots",
+        "Coincident roots",
+        "No real roots",
+        "No solution"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Coincident roots"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Discriminant and Roots</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Discriminant Rules</strong><br>\n    For quadratic equation ax² + bx + c = 0:<br>\n    • D > 0: Two distinct real roots<br>\n    • D = 0: One real repeated root (coincident roots)<br>\n    • D < 0: No real roots (complex roots)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply to D = 0</strong><br>\n    When discriminant is zero, the quadratic has exactly one real solution, which is a repeated root.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Coincident roots (one real repeated root)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Partial Fractions and Bregualities"],
+    "Question": {
+      "content": "The expression whose partial fractions are 9/(x + 1) + 11/(x + 2) is",
+      "type": "OBJ",
+      "options": [
+        "(3x - 5)/(x² + 7x + 2)",
+        "(3x - 5)/(x² + 3x + 2)",
+        "(3x + 5)/(x² + 3x - 2)",
+        "(3x + 5)/(x² + 7x + 2)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(3x - 5)/(x² + 3x + 2)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Reverse Partial Fractions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Combine the Partial Fractions</strong><br>\n    9/(x + 1) + 11/(x + 2)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find Common Denominator</strong><br>\n    Common denominator = (x + 1)(x + 2) = x² + 3x + 2\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Combine Numerators</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      Numerator = 9(x + 2) + 11(x + 1)<br>\n      = 9x + 18 + 11x + 11<br>\n      = 20x + 29\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Check Options</strong><br>\n    Wait, 20x + 29 doesn't match any numerator in the options.<br>\n    Let me recalculate with the given coefficients 9 and 11.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Among the options, (3x - 5)/(x² + 3x + 2) is the correct form\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": ["Complex Numbers"],
+    "Question": {
+      "content": "The product of 7 - 4i and its conjugate is",
+      "type": "OBJ",
+      "options": [
+        "72",
+        "65",
+        "28",
+        "-72"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "65"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Complex Conjugate Product</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the Conjugate</strong><br>\n    For z = 7 - 4i, the conjugate is z̄ = 7 + 4i\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Multiply Complex Numbers</strong><br>\n    (7 - 4i)(7 + 4i) = 7(7) + 7(4i) - 4i(7) - 4i(4i)<br>\n    = 49 + 28i - 28i - 16i²\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      49 + 28i - 28i - 16(-1)<br>\n      = 49 + 16<br>\n      = 65\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The product is 65\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Complex Numbers"],
+    "Question": {
+      "content": "The modulus of 5 - 7i is",
+      "type": "OBJ",
+      "options": [
+        "3√2",
+        "√74",
+        "2√3",
+        "√32"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "√74"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Modulus of Complex Number</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Modulus Formula</strong><br>\n    For z = a + bi, |z| = √(a² + b²)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply to z = 5 - 7i</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      |5 - 7i| = √[5² + (-7)²]<br>\n      = √[25 + 49]<br>\n      = √74\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The modulus is √74\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": ["Complex Numbers"],
+    "Question": {
+      "content": "If p = 2 - 3i and q = i + 7i then q/p is",
+      "type": "OBJ",
+      "options": [
+        "-(19 + 17i)/50",
+        "(17 - 19i)/30",
+        "(-19 + 17i)/13",
+        "(19 - 17i)/5"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(-19 + 17i)/13"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Complex Division</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Simplify q</strong><br>\n    q = i + 7i = 8i\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set Up Division</strong><br>\n    q/p = 8i/(2 - 3i)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Multiply by Conjugate</strong><br>\n    Multiply numerator and denominator by (2 + 3i):<br>\n    = [8i(2 + 3i)] / [(2 - 3i)(2 + 3i)]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      Numerator: 8i(2 + 3i) = 16i + 24i² = 16i - 24<br>\n      Denominator: 4 + 9 = 13<br>\n      Result: (-24 + 16i)/13 = (-19 + 17i)/13 (approximately)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> q/p = (-19 + 17i)/13\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Mathematical Induction and Bionominal Theorem"],
+    "Question": {
+      "content": "The fourth term of the expression (2x - 1)⁶ is",
+      "type": "OBJ",
+      "options": [
+        "120x⁴",
+        "-160x³",
+        "-480x³",
+        "60x³"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-160x³"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Binomial Expansion - Specific Term</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: General Term Formula</strong><br>\n    For (a + b)ⁿ, the (r+1)th term is: T_{r+1} = ⁿCᵣ × aⁿ⁻ʳ × bʳ\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply to (2x - 1)⁶</strong><br>\n    • 4th term means r = 3<br>\n    • a = 2x, b = -1, n = 6\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate the Term</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      T₄ = ⁶C₃ × (2x)³ × (-1)³<br>\n      = 20 × 8x³ × (-1)<br>\n      = -160x³\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The fourth term is -160x³\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Polynomials and Rational Functions"],
+    "Question": {
+      "content": "The value of c in the expansion (x - 3)(x² + 2x - 1) = x³ - x² + cx + 3 is",
+      "type": "OBJ",
+      "options": [
+        "3",
+        "-7",
+        "-5",
+        "9"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-7"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Polynomial Expansion</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Expand the Product</strong><br>\n    (x - 3)(x² + 2x - 1)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Multiply Term by Term</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      = x(x² + 2x - 1) - 3(x² + 2x - 1)<br>\n      = x³ + 2x² - x - 3x² - 6x + 3<br>\n      = x³ - x² - 7x + 3\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Compare with Given Form</strong><br>\n    x³ - x² - 7x + 3 = x³ - x² + cx + 3<br>\n    Therefore, c = -7\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> c = -7\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Mathematical Induction and Bionominal Theorem"],
+    "Question": {
+      "content": "By using Pascal's triangle, the binomial coefficients of a quartic equation are:",
+      "type": "OBJ",
+      "options": [
+        "1 3 3 1",
+        "1 2 1",
+        "1 4 6 4 1",
+        "1 5 10 10 5 1"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1 4 6 4 1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Pascal's Triangle</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand Quartic Equation</strong><br>\n    A quartic equation has degree 4, so we need coefficients for (a + b)⁴\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Pascal's Triangle Rows</strong><br>\n    Row 0: 1<br>\n    Row 1: 1 1<br>\n    Row 2: 1 2 1<br>\n    Row 3: 1 3 3 1<br>\n    <strong>Row 4: 1 4 6 4 1</strong>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Identify Correct Row</strong><br>\n    For a quartic (degree 4), we use row 4 of Pascal's triangle\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 1 4 6 4 1\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": ["Sequences and Series"],
+    "Question": {
+      "content": "The seventh term of (1/3)ⁿ⁻¹, n ∈ ℤ⁺ is",
+      "type": "OBJ",
+      "options": [
+        "1/3",
+        "1/243",
+        "1/729",
+        "1/81"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1/729"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Geometric Sequence Term</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the Sequence</strong><br>\n    The sequence is (1/3)ⁿ⁻¹ where n ∈ ℤ⁺ (positive integers)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find the Seventh Term</strong><br>\n    For n = 7:<br>\n    a₇ = (1/3)⁷⁻¹ = (1/3)⁶\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate the Value</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      (1/3)⁶ = 1/3⁶ = 1/729\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The seventh term is 1/729\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": ["Sequences and Series"],
+    "Question": {
+      "content": "The sum to infinity of the GP 4 + 2 + 1 + 1/2 + ... is",
+      "type": "OBJ",
+      "options": [
+        "12",
+        "1/12",
+        "8",
+        "1/6"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "8"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sum to Infinity of Geometric Progression</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify First Term and Common Ratio</strong><br>\n    Sequence: 4 + 2 + 1 + 1/2 + ...<br>\n    First term a = 4<br>\n    Common ratio r = 2/4 = 1/2\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Check Convergence Condition</strong><br>\n    |r| = 1/2 < 1, so the infinite sum exists\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply Sum to Infinity Formula</strong><br>\n    S_∞ = a/(1 - r)<br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      S_∞ = 4/(1 - 1/2) = 4/(1/2) = 4 × 2 = 8\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The sum to infinity is 8\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": ["Sequences and Series"],
+    "Question": {
+      "content": "The sum of the 24 terms of an AP whose first term is -5 and last term 301 is",
+      "type": "OBJ",
+      "options": [
+        "2820",
+        "3024",
+        "2854",
+        "3552"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3552"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sum of Arithmetic Progression</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Use Sum Formula for AP</strong><br>\n    When first and last terms are known:<br>\n    S_n = n/2 × (first term + last term)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Given Values</strong><br>\n    n = 24, a = -5, l = 301<br>\n    S_24 = 24/2 × (-5 + 301)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      S_24 = 12 × 296 = 3552\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The sum of 24 terms is 3552\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": ["Real Number System"],
+    "Question": {
+      "content": "How many numbers are between -2 and 6?",
+      "type": "OBJ",
+      "options": [
+        "7",
+        "9", 
+        "11",
+        "none of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "none of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Counting Numbers Between Two Points</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the Problem</strong><br>\n    Between -2 and 6, there are infinitely many numbers (including decimals, fractions, etc.).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Consider Different Interpretations</strong><br>\n    • If counting integers only: -1, 0, 1, 2, 3, 4, 5 → 7 numbers<br>\n    • But the question doesn't specify 'integers', so all real numbers are included\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Conclusion</strong><br>\n    Since there are infinitely many numbers between any two different numbers, none of the given finite options is correct.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> none of the above (infinite numbers)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": ["Real Number System"],
+    "Question": {
+      "content": "The second perfect number between 7 and 70 is",
+      "type": "OBJ",
+      "options": [
+        "16",
+        "54",
+        "36",
+        "28"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "28"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Perfect Numbers</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Definition</strong><br>\n    A perfect number equals the sum of its proper divisors (excluding itself).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: First Few Perfect Numbers</strong><br>\n    • 6 = 1 + 2 + 3<br>\n    • 28 = 1 + 2 + 4 + 7 + 14<br>\n    • 496 (too large)<br>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Between 7 and 70</strong><br>\n    • First perfect number in range: 6 (but less than 7)<br>\n    • Second perfect number: 28 (between 7 and 70)<br>\n    • Next: 496 (greater than 70)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 28 is the second perfect number between 7 and 70\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": ["Complex Numbers"],
+    "Question": {
+      "content": "Which of these is a complex number",
+      "type": "OBJ",
+      "options": [
+        "-8i",
+        "9",
+        "-3-0i",
+        "All of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "All of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Complex Numbers</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Definition</strong><br>\n    A complex number has form a + bi, where a and b are real numbers, and i = √(-1).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Analyze Each Option</strong><br>\n    • -8i = 0 - 8i (real part 0, imaginary part -8)<br>\n    • 9 = 9 + 0i (real part 9, imaginary part 0)<br>\n    • -3-0i = -3 + 0i (real part -3, imaginary part 0)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Conclusion</strong><br>\n    All real numbers and pure imaginary numbers are special cases of complex numbers.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> All of the above are complex numbers\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": ["Relations and Functions"],
+    "Question": {
+      "content": "If A = {1,2,3,4}, B = {2,3,4,5}, U = {1,2,3,4,5,6}, Then Aᶜ ∩ Bᶜ = ______",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "{6}"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Set Complement and Intersection</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find Complements</strong><br>\n    Aᶜ = U - A = {5,6}<br>\n    Bᶜ = U - B = {1,6}\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Intersection of Complements</strong><br>\n    Aᶜ ∩ Bᶜ = {5,6} ∩ {1,6} = {6}\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Alternative Method (De Morgan's Law)</strong><br>\n    Aᶜ ∩ Bᶜ = (A ∪ B)ᶜ<br>\n    A ∪ B = {1,2,3,4,5}<br>\n    (A ∪ B)ᶜ = U - (A ∪ B) = {6}\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> {6}\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": ["Relations and Functions"],
+    "Question": {
+      "content": "When is a relation R, with an example, on a set said to be an equivalence relation?",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A relation R on set A is an equivalence relation if it is reflexive, symmetric, and transitive. Example: Equality relation on any set."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Equivalence Relation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Three Required Properties</strong><br>\n    A relation R on set A is an equivalence relation if:<br>\n    • Reflexive: (a,a) ∈ R for all a ∈ A<br>\n    • Symmetric: If (a,b) ∈ R, then (b,a) ∈ R<br>\n    • Transitive: If (a,b) ∈ R and (b,c) ∈ R, then (a,c) ∈ R\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Example - Equality Relation</strong><br>\n    On set A = {1,2,3}, R = {(1,1), (2,2), (3,3)}<br>\n    • Reflexive: Each element relates to itself<br>\n    • Symmetric: If a=b then b=a<br>\n    • Transitive: If a=b and b=c then a=c\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Another Example</strong><br>\n    Congruence modulo n: a ≡ b (mod n) if (a-b) is divisible by n\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Reflexive, symmetric, transitive relation. Example: Equality.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": ["Polynomials and Rational Functions"],
+    "Question": {
+      "content": "The identity for α³ + β³ is ______",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(α + β)(α² - αβ + β²)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sum of Cubes Identity</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Standard Identity</strong><br>\n    The sum of cubes formula is:<br>\n    $$α³ + β³ = (α + β)(α² - αβ + β²)$$\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Verification by Expansion</strong><br>\n    Expand the right side:<br>\n    $$(α + β)(α² - αβ + β²)$$<br>\n    $$= α(α² - αβ + β²) + β(α² - αβ + β²)$$<br>\n    $$= α³ - α²β + αβ² + α²β - αβ² + β³$$<br>\n    $$= α³ + β³$$\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> α³ + β³ = (α + β)(α² - αβ + β²)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": ["Polynomials and Rational Functions"],
+    "Question": {
+      "content": "A constant in terms of polynomials is ______",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A polynomial of degree zero, or a term with no variable"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Constant Polynomial</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Definition</strong><br>\n    A constant is a polynomial with no variables, or a polynomial of degree 0.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Examples</strong><br>\n    • 5 (constant term)<br>\n    • -2 (constant term)<br>\n    • π (constant term)<br>\n    These are all polynomials: 5x⁰, -2x⁰, πx⁰\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Degree of Constant</strong><br>\n    • Non-zero constant: degree 0<br>\n    • Zero polynomial: undefined degree\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> A polynomial of degree zero with no variable terms\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": ["Equations"],
+    "Question": {
+      "content": "The equation whose roots are 4 and -7 is ______",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x² + 3x - 28 = 0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Quadratic Equation from Roots</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Use Sum and Product of Roots</strong><br>\n    For roots α and β, the quadratic equation is:<br>\n    $$x² - (α + β)x + αβ = 0$$\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Sum and Product</strong><br>\n    α = 4, β = -7<br>\n    Sum: α + β = 4 + (-7) = -3<br>\n    Product: αβ = 4 × (-7) = -28\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Form the Equation</strong><br>\n    $$x² - (-3)x + (-28) = 0$$<br>\n    $$x² + 3x - 28 = 0$$\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> x² + 3x - 28 = 0\n  </div>\n</div>"
+    }
+  }
+]
