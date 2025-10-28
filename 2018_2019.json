@@ -21,6 +21,11 @@
  ],
   "time": "120"
  },
+   {
+    "type": "Instruction",
+    "content": "Attempt All Questions"
+  },
+
   {
     "type": "Question",
     "name": "Question 1",
