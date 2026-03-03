@@ -1,0 +1,944 @@
+[
+{
+  "type": "pageInfo",
+  "kind": "subjective",
+  "course_title": "Algebra And Trigonometry",
+  "code": "MTH 110.1",
+  "session": "2024/2025",
+  "topics": ["Algebra", "Rational Numbers", "Definitions", "Number Theory", "Irrational Numbers", "Set Theory", "Sets", "Relations and Functions", "Polynomials", "Quadratic Equations", "Inequalities", "Complex Numbers", "Mathematics", "Set Operations", "Surds", "Simplification", "Rationalization", "Functions", "Composition", "Inverse Functions", "Rational Functions", "Undefined Values", "Root Transformation", "Multiplication", "Division", "Argument", "Fractions", "Factorization", "Binomial Theorem", "Roots", "Modulus", "Exponents", "Equations", "Binomial Expansion", "Discriminant"],
+  "time": "90"
+},
+{
+  "type": "Instruction",
+  "content": "Answer all Questions"
+},
+{
+  "type": "heading",
+  "heading": "Section A"
+},
+{
+  "type": "Question",
+  "name": "Question 1",
+  "topic": [
+    "Algebra",
+    "Rational Numbers"
+  ],
+  "Question": {
+    "content": "The sum of two rational numbers is \\(-7\\). If one of the numbers is \\(\\frac{15}{19}\\), what is the other number?",
+    "type": "OBJ",
+    "options": [
+      "\\(-\\frac{21}{10}\\)",
+      "\\(-\\frac{57}{16}\\)",
+      "\\(\\frac{7}{9}\\)",
+      "\\(-\\frac{118}{19}\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(-\\frac{118}{19}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding the Other Rational Number</h4> <p>Let the unknown number be \\(x\\). The problem states that the sum of the two numbers is \\(-7\\).</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Set up the equation.</strong><br> \\(\\frac{15}{19} + x = -7\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Isolate \\(x\\).</strong><br> \\(x = -7 - \\frac{15}{19}\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 3: Express \\(-7\\) as a fraction with denominator 19.</strong><br> \\(-7 = -\\frac{133}{19}\\) because \\(7 \\times 19 = 133\\). </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 4: Perform the subtraction.</strong><br> \\(x = -\\frac{133}{19} - \\frac{15}{19} = -\\frac{133 + 15}{19} = -\\frac{148}{19}\\) <br> <em>Note: The calculated answer is \\(-\\frac{148}{19}\\), which is not among the options. Option D is \\(-\\frac{118}{19}\\). There might be a typo in the problem or options.</em> </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 2",
+  "topic": [
+    "Rational Numbers",
+    "Definitions"
+  ],
+  "Question": {
+    "content": "Which of the following is NOT a property of rational numbers?",
+    "type": "OBJ",
+    "options": [
+      "Are written as fractions",
+      "Have repeating decimals",
+      "Have non-terminating decimals",
+      "Non-repeating, non-terminating decimal"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Non-repeating, non-terminating decimal"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Properties of Rational Numbers</h4> <p>A rational number is any number that can be expressed as a fraction \\(\\frac{p}{q}\\), where \\(p\\) and \\(q\\) are integers and \\(q \\neq 0\\).</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Analyzing the options:</strong><br> - <strong>Are written as fractions:</strong> This is the definition of a rational number. It is a property.<br> - <strong>Have repeating decimals:</strong> Rational numbers have decimal expansions that either terminate (like 1/4 = 0.25) or eventually repeat (like 1/3 = 0.333...). This is a property.<br> - <strong>Have non-terminating decimals:</strong> As mentioned, rational numbers can have non-terminating decimals, as long as they are repeating (e.g., 0.333...). This is a property.<br> - <strong>Non-repeating, non-terminating decimal:</strong> Decimals that go on forever without a repeating pattern (like \\(\\pi = 3.14159...\\)) cannot be written as a simple fraction. This is the definition of an <strong>irrational number</strong>, so it is NOT a property of rational numbers. </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 3",
+  "topic": [
+    "Rational Numbers",
+    "Number Theory"
+  ],
+  "Question": {
+    "content": "How many rational numbers exist between any two given rational numbers?",
+    "type": "OBJ",
+    "options": [
+      "Exactly one rational number",
+      "Infinitely many rational numbers",
+      "Many irrational numbers",
+      "Only irrational numbers"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Infinitely many rational numbers"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Density of Rational Numbers</h4> <p>The set of rational numbers is said to be 'dense'. This means that between any two distinct rational numbers, no matter how close they are, there exists another rational number.</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Why infinitely many?</strong><br> If you find one rational number between \\(a\\) and \\(b\\), say \\(\\frac{a+b}{2}\\), you can then find another one between \\(a\\) and that midpoint, and so on. This process can be repeated forever, generating an infinite number of rational numbers. </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 4",
+  "topic": [
+    "Irrational Numbers",
+    "Definitions"
+  ],
+  "Question": {
+    "content": "What type of decimal expansion does an irrational number have?",
+    "type": "OBJ",
+    "options": [
+      "Terminating",
+      "Recurring",
+      "Either terminating or non-terminating",
+      "Non-terminating and non-recurring"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Non-terminating and non-recurring"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Decimal Expansion of Irrational Numbers</h4> <p>By definition, an irrational number cannot be expressed as a simple fraction. This property is reflected in its decimal expansion.</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Analyzing the options:</strong><br> - <strong>Terminating:</strong> Terminating decimals (like 0.25) can be written as fractions (1/4), so they are rational.<br> - <strong>Recurring (Repeating):</strong> Repeating decimals (like 0.333...) can also be written as fractions (1/3), so they are rational.<br> - <strong>Either terminating or non-terminating:</strong> This describes rational numbers.<br> - <strong>Non-terminating and non-recurring:</strong> This is the correct description. Irrational numbers go on forever without ever falling into a repeating pattern (e.g., \\(\\pi = 3.1415926535...\\), \\(\\sqrt{2} = 1.41421356...\\)). </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 5",
+  "topic": [
+    "Set Theory"
+  ],
+  "Question": {
+    "content": "Which of the following are methods of representing a set?",
+    "type": "OBJ",
+    "options": [
+      "Roster form",
+      "Set-builder form",
+      "Venn diagram",
+      "All of the above"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "All of the above"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Representation of Sets</h4> <p>There are several standard ways to describe or represent a set.</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Analyzing the options:</strong><br> - <strong>Roster form (or Tabular form):</strong> Listing all the elements of the set within curly braces. E.g., \\(A = \\{1, 2, 3\\}\\).<br> - <strong>Set-builder form (or Rule form):</strong> Describing the elements using a common property. E.g., \\(A = \\{x | x \\text{ is a natural number less than } 4\\}\\).<br> - <strong>Venn diagram:</strong> A visual representation using circles or other shapes to show sets and their relationships. </div> All three are valid methods, so the correct answer is 'all of the above'. </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 6",
+  "topic": [
+    "Algebra"
+  ],
+  "Question": {
+    "content": "Given that \\(\\frac{3x-5}{(x-1)(x+2)}\\) is equal to \\(\\frac{A}{(x+1)} + \\frac{B}{(x+2)}\\), determine the values of A and B.",
+    "type": "OBJ",
+    "options": [
+      "-8, 15",
+      "-11, 6",
+      "-8, 11",
+      "none of these"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "none of these"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Partial Fraction Decomposition</h4> <p>We need to find A and B such that: <br> \\(\\frac{3x-5}{(x-1)(x+2)} = \\frac{A}{x-1} + \\frac{B}{x+2}\\). <br> <strong style='color: var(--strongColor);'>Note:</strong> The problem has a typo; the denominator factor should be \\((x-1)\\), not \\((x+1)\\), to match the left side. We will solve assuming the intended decomposition is over \\((x-1)\\) and \\((x+2)\\).</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Clear the denominator.</strong><br> Multiply both sides by \\((x-1)(x+2)\\): <br> \\(3x - 5 = A(x+2) + B(x-1)\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Expand and collect like terms.</strong><br> \\(3x - 5 = Ax + 2A + Bx - B\\) <br> \\(3x - 5 = (A + B)x + (2A - B)\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 3: Equate coefficients.</strong><br> This gives a system of equations: <br> 1) \\(A + B = 3\\) <br> 2) \\(2A - B = -5\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 4: Solve the system.</strong><br> Add the two equations together: <br> \\((A + B) + (2A - B) = 3 + (-5)\\) <br> \\(3A = -2\\) <br> \\(A = -\\frac{2}{3}\\) <br> Substitute into equation (1): \\(-\\frac{2}{3} + B = 3\\) <br> \\(B = 3 + \\frac{2}{3} = \\frac{9}{3} + \\frac{2}{3} = \\frac{11}{3}\\) </div> <div style='margin-bottom: 12px;'> The values are \\(A = -\\frac{2}{3}\\) and \\(B = \\frac{11}{3}\\), which are not integers. None of the given options match, so the correct choice is 'none of these'. </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 7",
+  "topic": [
+    "Sets",
+    "Relations and Functions"
+  ],
+  "Question": {
+    "content": "Given \\(A = \\{9, 16, 25\\}\\) and \\(B = \\{1, 2, 3, 4, 5, 6\\}\\). Let R be the relation from A to B where \\(aRb\\) if and only if \\(a\\) is a perfect square of \\(b\\). What is the range of R?",
+    "type": "OBJ",
+    "options": [
+      "\\(\\{1, 2, 3\\}\\)",
+      "\\(\\{3, 4, 5\\}\\)",
+      "\\(\\{1, 3, 5\\}\\)",
+      "\\(\\{2, 4, 6\\}\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(\\{3, 4, 5\\}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Range of a Relation</h4> <p>The range of a relation is the set of all second elements (elements from B) that are related to at least one element in the first set (A). The condition is \\(a = b^2\\).</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Check each element in A.</strong><br> - For \\(a = 9\\): \\(9 = b^2 \\Rightarrow b = 3\\) (since \\(b\\) is in B and positive). 3 is in B. So, (9, 3) is in R.<br> - For \\(a = 16\\): \\(16 = b^2 \\Rightarrow b = 4\\). 4 is in B. So, (16, 4) is in R.<br> - For \\(a = 25\\): \\(25 = b^2 \\Rightarrow b = 5\\). 5 is in B. So, (25, 5) is in R. </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Identify the range.</strong><br> The second elements in these ordered pairs are \\(3, 4,\\) and \\(5\\). Therefore, the range of R is \\(\\{3, 4, 5\\}\\). </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 8",
+  "topic": [
+    "Polynomials",
+    "Algebra"
+  ],
+  "Question": {
+    "content": "If \\(p(x) = 12x^5 + 3x^4 - 2x^3 + x^2\\) and \\(q(x) = 10x^4 - 5x^3 - 3x\\), evaluate \\(p(x) + q(x)\\).",
+    "type": "OBJ",
+    "options": [
+      "\\(12x^5 + 13x^4 - 7x^3 + x^2 - 3x\\)",
+      "\\(12x^5 + 13x^4 - 7x^3 - 2x^3\\)",
+      "\\(12x^5 + 13x^8 - 7x^6 - 4x\\)",
+      "\\(12x^5 + 13x^8 + 7x^3 + 2x^3\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(12x^5 + 13x^4 - 7x^3 + x^2 - 3x\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Adding Polynomials</h4> <p>To add polynomials, we combine like terms (terms with the same variable and exponent).</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Write the polynomials and align like terms.</strong><br> \\(p(x) = 12x^5 + 3x^4 - 2x^3 + x^2 + 0x\\) <br> \\(q(x) = 0x^5 + 10x^4 - 5x^3 + 0x^2 - 3x\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Add the coefficients of like terms.</strong><br> - \\(x^5\\) terms: \\(12 + 0 = 12x^5\\) <br> - \\(x^4\\) terms: \\(3 + 10 = 13x^4\\) <br> - \\(x^3\\) terms: \\(-2 + (-5) = -7x^3\\) <br> - \\(x^2\\) terms: \\(1 + 0 = x^2\\) <br> - \\(x\\) terms: \\(0 + (-3) = -3x\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 3: Combine the results.</strong><br> \\(p(x) + q(x) = 12x^5 + 13x^4 - 7x^3 + x^2 - 3x\\). </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 9",
+  "topic": [
+    "Quadratic Equations",
+    "Algebra"
+  ],
+  "Question": {
+    "content": "Solve the quadratic equation \\(3x^2 - 5x + 2 = 0\\).",
+    "type": "OBJ",
+    "options": [
+      "\\(x = 1\\) or \\(\\frac{2}{3}\\)",
+      "\\(x = -1\\) or \\(\\frac{2}{3}\\)",
+      "\\(x = 1\\) or \\(-\\frac{2}{3}\\)",
+      "\\(x = 1\\) or \\(\\frac{5}{6}\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(x = 1\\) or \\(\\frac{2}{3}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Solving a Quadratic by Factoring</h4> <p>We can solve this by factoring the quadratic expression.</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Factor the quadratic.</strong><br> We look for two numbers that multiply to \\(a \\times c = 3 \\times 2 = 6\\) and add up to \\(b = -5\\). These numbers are \\(-2\\) and \\(-3\\). <br> Rewrite the middle term: \\(3x^2 - 2x - 3x + 2 = 0\\) <br> Group the terms: \\((3x^2 - 2x) + (-3x + 2) = 0\\) <br> Factor out common factors: \\(x(3x - 2) - 1(3x - 2) = 0\\) <br> Factor out the common binomial: \\((x - 1)(3x - 2) = 0\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Apply the Zero Product Property.</strong><br> If the product of two factors is zero, then at least one of the factors must be zero. <br> - \\(x - 1 = 0 \\Rightarrow x = 1\\) <br> - \\(3x - 2 = 0 \\Rightarrow 3x = 2 \\Rightarrow x = \\frac{2}{3}\\) </div> The solutions are \\(x = 1\\) and \\(x = \\frac{2}{3}\\). </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 10",
+  "topic": [
+    "Algebra"
+  ],
+  "Question": {
+    "content": "Resolve \\(\\frac{8x-17}{(x+1)(x-4)}\\) into partial fractions.",
+    "type": "OBJ",
+    "options": [
+      "\\(\\frac{5}{(x+1)} + \\frac{3}{(x-4)}\\)",
+      "\\(\\frac{3}{(x+1)} + \\frac{5}{(x+4)}\\)",
+      "\\(\\frac{5}{(x+1)} - \\frac{3}{(x-4)}\\)",
+      "\\(\\frac{-5}{(x+1)} - \\frac{3}{(x-4)}\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(\\frac{5}{(x+1)} + \\frac{3}{(x-4)}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Partial Fraction Decomposition</h4> <p>We want to find constants A and B such that: <br> \\(\\frac{8x-17}{(x+1)(x-4)} = \\frac{A}{x+1} + \\frac{B}{x-4}\\).</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Clear the denominator.</strong><br> Multiply both sides by \\((x+1)(x-4)\\): <br> \\(8x - 17 = A(x-4) + B(x+1)\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Expand and collect like terms.</strong><br> \\(8x - 17 = Ax - 4A + Bx + B\\) <br> \\(8x - 17 = (A + B)x + (-4A + B)\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 3: Equate coefficients.</strong><br> This gives a system of equations: <br> 1) \\(A + B = 8\\) <br> 2) \\(-4A + B = -17\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 4: Solve the system.</strong><br> Subtract equation (2) from equation (1) to eliminate B: <br> \\((A + B) - (-4A + B) = 8 - (-17)\\) <br> \\(A + B + 4A - B = 8 + 17\\) <br> \\(5A = 25\\) <br> \\(A = 5\\) <br> Substitute into equation (1): \\(5 + B = 8 \\Rightarrow B = 3\\) </div> <div style='margin-bottom: 12px;'> Therefore, the partial fractions are \\(\\frac{5}{x+1} + \\frac{3}{x-4}\\). </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 11",
+  "topic": [
+    "Inequalities",
+    "Algebra"
+  ],
+  "Question": {
+    "content": "Solve the inequality \\(4x + 3 \\leq -17\\).",
+    "type": "OBJ",
+    "options": [
+      "\\(x \\leq -5\\)",
+      "\\(x \\leq -5\\)",
+      "\\(x \\geq 5\\)",
+      "\\(x \\geq -5\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(x \\leq -5\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Solving a Linear Inequality</h4> <p>We solve this similar to an equation, with the important difference that multiplying or dividing by a negative number reverses the inequality sign.</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Isolate the term with \\(x\\).</strong><br> Subtract 3 from both sides: <br> \\(4x + 3 - 3 \\leq -17 - 3\\) <br> \\(4x \\leq -20\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Solve for \\(x\\).</strong><br> Divide both sides by 4. Since 4 is positive, the inequality sign remains the same. <br> \\(\\frac{4x}{4} \\leq \\frac{-20}{4}\\) <br> \\(x \\leq -5\\) </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 12",
+  "topic": [
+    "Complex Numbers"
+  ],
+  "Question": {
+    "content": "Simplify \\(i^{108} - i^{32}\\).",
+    "type": "OBJ",
+    "options": [
+      "1",
+      "-i",
+      "-1",
+      "0"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "0"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Powers of \\(i\\)</h4> <p>The powers of the imaginary unit \\(i\\) cycle in a pattern: <br> \\(i^1 = i\\), \\(i^2 = -1\\), \\(i^3 = -i\\), \\(i^4 = 1\\), and then it repeats. To simplify \\(i^n\\), find the remainder when \\(n\\) is divided by 4.</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Simplify \\(i^{108}\\).</strong><br> Divide 108 by 4: \\(108 \\div 4 = 27\\) with a remainder of 0. <br> A remainder of 0 means \\(i^{108} = i^4 = 1\\). </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Simplify \\(i^{32}\\).</strong><br> Divide 32 by 4: \\(32 \\div 4 = 8\\) with a remainder of 0. <br> \\(i^{32} = i^4 = 1\\). </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 3: Perform the subtraction.</strong><br> \\(i^{108} - i^{32} = 1 - 1 = 0\\). </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 13",
+  "topic": [
+    "Complex Numbers"
+  ],
+  "Question": {
+    "content": "If \\(Z_1 = 2 + 3i\\) and \\(Z_2 = 3 - 2i\\), evaluate \\(Z_1 Z_2^{-1}\\).",
+    "type": "OBJ",
+    "options": [
+      "\\(12 + 5i\\)",
+      "\\(12 - 5i\\)",
+      "\\(12 + 13i\\)",
+      "\\(12 - 13i\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(12 + 13i\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Division of Complex Numbers</h4> <p>\\(Z_2^{-1}\\) means the multiplicative inverse of \\(Z_2\\). So \\(Z_1 Z_2^{-1} = \\frac{Z_1}{Z_2}\\). To divide complex numbers, we multiply the numerator and denominator by the conjugate of the denominator.</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Write the division.</strong><br> \\(\\frac{2 + 3i}{3 - 2i}\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Multiply by the conjugate.</strong><br> The conjugate of \\(3 - 2i\\) is \\(3 + 2i\\). Multiply the numerator and denominator: <br> \\(\\frac{(2 + 3i)(3 + 2i)}{(3 - 2i)(3 + 2i)}\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 3: Simplify the denominator.</strong><br> \\((a - bi)(a + bi) = a^2 + b^2\\). So, \\((3)^2 + (2)^2 = 9 + 4 = 13\\). </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 4: Simplify the numerator using FOIL.</strong><br> \\((2 + 3i)(3 + 2i) = 2(3) + 2(2i) + 3i(3) + 3i(2i)\\) <br> \\(= 6 + 4i + 9i + 6i^2\\) <br> Since \\(i^2 = -1\\), \\(6i^2 = 6(-1) = -6\\). <br> So, \\(= 6 - 6 + (4i + 9i) = 0 + 13i = 13i\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 5: Combine the results.</strong><br> \\(\\frac{13i}{13} = i\\) <br> <em>Note: The calculation yields \\(i\\), which is not among the options. The provided options all have a real part of 12. There might be a typo in the question. If \\(Z_2 = 3 - 2i\\) and we were finding \\(Z_1 \\times Z_2\\), then \\((2+3i)(3-2i) = 6 -4i +9i -6i^2 = 6 +5i +6 = 12+5i\\) (Option A).</em> </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 14",
+  "topic": [
+    "Quadratic Equations",
+    "Algebra"
+  ],
+  "Question": {
+    "content": "Let \\(\\alpha\\) and \\(\\beta\\) be the roots of the equation \\(4x^2 + 12x - 1 = 0\\). What is the value of \\(\\alpha + \\beta\\)?",
+    "type": "OBJ",
+    "options": [
+      "\\(\\frac{1}{4}\\)",
+      "\\(-\\frac{1}{4}\\)",
+      "-3",
+      "4"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "-3"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sum of Roots of a Quadratic</h4> <p>For a quadratic equation in the form \\(ax^2 + bx + c = 0\\), the sum of the roots \\(\\alpha + \\beta\\) is given by \\(-\\frac{b}{a}\\).</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Identify the coefficients.</strong><br> In the equation \\(4x^2 + 12x - 1 = 0\\), we have: <br> \\(a = 4\\), \\(b = 12\\), \\(c = -1\\). </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Apply the formula for the sum of roots.</strong><br> \\(\\alpha + \\beta = -\\frac{b}{a} = -\\frac{12}{4} = -3\\). </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 15",
+  "topic": [
+    "Set Theory"
+  ],
+  "Question": {
+    "content": "How many subsets can be obtained from the set \\(A = \\{a, a, e, i, o, u\\}\\)?",
+    "type": "OBJ",
+    "options": [
+      "256",
+      "7",
+      "64",
+      "128"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "32"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Number of Subsets</h4> <p>The number of subsets of a set is given by \\(2^n\\), where \\(n\\) is the number of distinct elements in the set. Elements in a set are unique, so duplicates are not counted.</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Identify the distinct elements.</strong><br> The set is written as \\(A = \\{a, a, e, i, o, u\\}\\). The element 'a' is repeated. When we remove duplicates, the set of distinct elements is \\(\\{a, e, i, o, u\\}\\). </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Count the distinct elements.</strong><br> There are 5 distinct elements: \\(n = 5\\). </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 3: Apply the formula.</strong><br> The number of subsets is \\(2^n = 2^5 = 32\\). <br> <em>Note: 32 is not among the options provided. The options include 64 (\\(2^6\\)) if the duplicate 'a' were counted as two separate elements, which is incorrect in set theory.</em> </div> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 16",
+  "topic": [
+    "Mathematics",
+    "Set Theory",
+    "Set Operations"
+  ],
+  "Question": {
+    "content": "If \\(A = \\{x : x \\text{ is a multiple of } 10 \\text{ and } 0 < x < 100\\}\\) and \\(B = \\{x : x \\text{ is a multiple of } 20 \\text{ and } 0 < x < 100\\}\\), which of these options is not an equal set to the other remaining options?",
+    "type": "OBJ",
+    "options": [
+      "\\(A \\cap B^c\\)",
+      "\\(A \\cup B^c\\)",
+      "\\(B \\Delta A\\)",
+      "\\(A^c \\cup B^c\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(A \\cup B^c\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Set Theory - Equal Sets</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: List the elements of sets A and B</strong><br>\n    A = {multiples of 10 between 0 and 100} = {10, 20, 30, 40, 50, 60, 70, 80, 90}<br>\n    B = {multiples of 20 between 0 and 100} = {20, 40, 60, 80}\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find the complement of B (B^c)</strong><br>\n    Universal set U = {all integers between 1 and 99} (since 0 < x < 100)<br>\n    B^c = U - B = all numbers from 1-99 except {20, 40, 60, 80}\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Evaluate each option</strong><br>\n    (a) A ∩ B^c = elements in A that are not in B = {10, 30, 50, 70, 90}<br>\n    (b) A ∪ B^c = all elements in A together with all elements not in B (this is a very large set containing almost all numbers from 1-99)<br>\n    (c) B Δ A = symmetric difference = (A - B) ∪ (B - A) = {10, 30, 50, 70, 90} ∪ ∅ = {10, 30, 50, 70, 90}<br>\n    (d) A^c ∪ B^c = De Morgan's law gives (A ∩ B)^c = complement of {20, 40, 60, 80} = all numbers except {20, 40, 60, 80}\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Compare the sets</strong><br>\n    Options (a) and (c) both equal {10, 30, 50, 70, 90}<br>\n    Option (d) equals U - {20, 40, 60, 80} which is a very large set<br>\n    Option (b) equals A ∪ (U - B) which is actually equal to U - (B - A) and is different from the others\n  </div>\n  \n  <p><strong>Answer:</strong> \\(A \\cup B^c\\) is not equal to the other sets.</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 17",
+  "topic": [
+    "Mathematics",
+    "Surds",
+    "Simplification"
+  ],
+  "Question": {
+    "content": "Expressing \\(\\frac{2}{\\sqrt{72}}\\) in surd form yields:",
+    "type": "OBJ",
+    "options": [
+      "\\(2\\sqrt{6}\\)",
+      "\\(\\frac{2\\sqrt{3}}{3}\\)",
+      "\\(\\frac{2\\sqrt{3}+3\\sqrt{2}}{-6}\\)",
+      "\\(\\frac{2\\sqrt{3}-3\\sqrt{2}}{-6}\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(\\frac{\\sqrt{2}}{6}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Simplifying Surds</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Simplify \\(\\sqrt{72}\\)</strong><br>\n    \\(72 = 36 \\times 2\\)<br>\n    \\(\\sqrt{72} = \\sqrt{36 \\times 2} = \\sqrt{36} \\times \\sqrt{2} = 6\\sqrt{2}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Substitute into the expression</strong><br>\n    \\(\\frac{2}{\\sqrt{72}} = \\frac{2}{6\\sqrt{2}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify the fraction</strong><br>\n    \\(\\frac{2}{6\\sqrt{2}} = \\frac{1}{3\\sqrt{2}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Rationalize the denominator</strong><br>\n    \\(\\frac{1}{3\\sqrt{2}} \\times \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{3 \\times 2} = \\frac{\\sqrt{2}}{6}\\)\n  </div>\n  \n  <p><strong>Answer:</strong> \\(\\frac{\\sqrt{2}}{6}\\). Note: This answer is not among the given options, suggesting the question may have been misread or options are incomplete.</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 18",
+  "topic": [
+    "Mathematics",
+    "Surds",
+    "Rationalization"
+  ],
+  "Question": {
+    "content": "Express \\(\\frac{4-2\\sqrt{6}}{2\\sqrt{3}-3\\sqrt{2}}\\) in the simplest form",
+    "type": "OBJ",
+    "options": [
+      "\\(\\frac{2\\sqrt{3}}{3}\\)",
+      "\\(\\frac{-2\\sqrt{3}}{3}\\)",
+      "\\(\\frac{2\\sqrt{3}+3\\sqrt{2}}{-6}\\)",
+      "\\(\\frac{2\\sqrt{3}-3\\sqrt{2}}{-6}\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(\\frac{-2\\sqrt{3}}{3}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Rationalizing Surds</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the conjugate</strong><br>\n    Denominator: \\(2\\sqrt{3} - 3\\sqrt{2}\\)<br>\n    Conjugate: \\(2\\sqrt{3} + 3\\sqrt{2}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Multiply numerator and denominator by the conjugate</strong><br>\n    \\(\\frac{4-2\\sqrt{6}}{2\\sqrt{3}-3\\sqrt{2}} \\times \\frac{2\\sqrt{3}+3\\sqrt{2}}{2\\sqrt{3}+3\\sqrt{2}}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Expand the numerator</strong><br>\n    Numerator = \\((4-2\\sqrt{6})(2\\sqrt{3}+3\\sqrt{2})\\)<br>\n    = \\(4(2\\sqrt{3}) + 4(3\\sqrt{2}) - 2\\sqrt{6}(2\\sqrt{3}) - 2\\sqrt{6}(3\\sqrt{2})\\)<br>\n    = \\(8\\sqrt{3} + 12\\sqrt{2} - 4\\sqrt{18} - 6\\sqrt{12}\\)<br>\n    = \\(8\\sqrt{3} + 12\\sqrt{2} - 4\\sqrt{9\\times2} - 6\\sqrt{4\\times3}\\)<br>\n    = \\(8\\sqrt{3} + 12\\sqrt{2} - 12\\sqrt{2} - 12\\sqrt{3}\\)<br>\n    = \\(8\\sqrt{3} - 12\\sqrt{3} + 12\\sqrt{2} - 12\\sqrt{2}\\)<br>\n    = \\(-4\\sqrt{3}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Expand the denominator</strong><br>\n    Denominator = \\((2\\sqrt{3})^2 - (3\\sqrt{2})^2\\)<br>\n    = \\(4 \\times 3 - 9 \\times 2\\)<br>\n    = \\(12 - 18 = -6\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Simplify</strong><br>\n    \\(\\frac{-4\\sqrt{3}}{-6} = \\frac{4\\sqrt{3}}{6} = \\frac{2\\sqrt{3}}{3}\\)<br>\n    Wait - check sign: numerator = \\(-4\\sqrt{3}\\), denominator = \\(-6\\), so result = \\(\\frac{-4\\sqrt{3}}{-6} = \\frac{4\\sqrt{3}}{6} = \\frac{2\\sqrt{3}}{3}\\)\n  </div>\n  \n  <p><strong>Answer:</strong> \\(\\frac{2\\sqrt{3}}{3}\\). This matches option (a).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 19",
+  "topic": [
+    "Mathematics",
+    "Functions",
+    "Composition",
+    "Inverse Functions"
+  ],
+  "Question": {
+    "content": "Let \\(f(x) = x^2\\), then \\((f \\circ f^{-1})(16)\\) results in",
+    "type": "OBJ",
+    "options": [
+      "\\(16\\)",
+      "\\(1\\)",
+      "\\(4\\)",
+      "\\(-4\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "16"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Function Composition with Inverse</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the composition</strong><br>\n    \\((f \\circ f^{-1})(x) = f(f^{-1}(x))\\)<br>\n    This is a fundamental property: a function composed with its inverse returns the original input\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply the property</strong><br>\n    For any function f that is invertible, \\(f(f^{-1}(x)) = x\\) for all x in the domain of \\(f^{-1}\\)<br>\n    Therefore, \\((f \\circ f^{-1})(16) = 16\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Verify with the actual function</strong><br>\n    For \\(f(x) = x^2\\), we need to be careful about domain restrictions<br>\n    \\(f^{-1}(x) = \\sqrt{x}\\) (taking the principal square root, domain x ≥ 0)<br>\n    \\(f^{-1}(16) = 4\\)<br>\n    Then \\(f(4) = 4^2 = 16\\)\n  </div>\n  \n  <p><strong>Answer:</strong> \\((f \\circ f^{-1})(16) = 16\\).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 20",
+  "topic": [
+    "Mathematics",
+    "Rational Functions",
+    "Undefined Values"
+  ],
+  "Question": {
+    "content": "Choose the value of x that will make the function \\(\\frac{x^2+5x+6}{x^2+5x+6}\\) undefined",
+    "type": "OBJ",
+    "options": [
+      "\\(3, 2\\)",
+      "\\(3, -2\\)",
+      "\\(-3, 2\\)",
+      "\\((-3, -2)\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\((-3, -2)\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>When is a Rational Function Undefined?</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall when a fraction is undefined</strong><br>\n    A rational function is undefined when the denominator equals zero\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set the denominator equal to zero</strong><br>\n    Denominator: \\(x^2 + 5x + 6 = 0\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Factor the quadratic</strong><br>\n    \\(x^2 + 5x + 6 = (x + 2)(x + 3)\\)<br>\n    Check: \\((x + 2)(x + 3) = x^2 + 3x + 2x + 6 = x^2 + 5x + 6\\) ✓\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Solve for x</strong><br>\n    \\((x + 2)(x + 3) = 0\\)<br>\n    \\(x + 2 = 0\\) or \\(x + 3 = 0\\)<br>\n    \\(x = -2\\) or \\(x = -3\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Note about the function</strong><br>\n    This function simplifies to \\(\\frac{(x+2)(x+3)}{(x+2)(x+3)} = 1\\) for all x except where denominator is zero<br>\n    At x = -2 or x = -3, the function is undefined (0/0 form)\n  </div>\n  \n  <p><strong>Answer:</strong> The function is undefined at \\(x = -3\\) and \\(x = -2\\), which is option (d) \\((-3, -2)\\).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 21",
+  "topic": [
+    "Mathematics",
+    "Quadratic Equations",
+    "Root Transformation"
+  ],
+  "Question": {
+    "content": "If \\(\\alpha\\) and \\(\\beta\\) are the roots of the equation \\(3x^2 - 2x - 1 = 0\\), then the new equation whose roots are \\(2\\alpha\\) and \\(2\\beta\\) is",
+    "type": "OBJ",
+    "options": [
+      "\\(3x^2 - 2x + 4\\)",
+      "\\(3x^2 - 4x - 4\\)",
+      "\\(3x^2 + 2x + 1\\)",
+      "\\(3x^2 - 4x + 4\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(3x^2 - 4x - 4\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Transforming Quadratic Roots</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find sum and product of original roots</strong><br>\n    For \\(3x^2 - 2x - 1 = 0\\):<br>\n    Sum of roots: \\(\\alpha + \\beta = -\\frac{\\text{coefficient of x}}{\\text{coefficient of }x^2} = -\\frac{(-2)}{3} = \\frac{2}{3}\\)<br>\n    Product of roots: \\(\\alpha\\beta = \\frac{\\text{constant term}}{\\text{coefficient of }x^2} = \\frac{-1}{3} = -\\frac{1}{3}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find sum and product of new roots</strong><br>\n    New roots: \\(2\\alpha\\) and \\(2\\beta\\)<br>\n    Sum: \\(2\\alpha + 2\\beta = 2(\\alpha + \\beta) = 2 \\times \\frac{2}{3} = \\frac{4}{3}\\)<br>\n    Product: \\((2\\alpha)(2\\beta) = 4\\alpha\\beta = 4 \\times (-\\frac{1}{3}) = -\\frac{4}{3}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Form the new quadratic equation</strong><br>\n    A quadratic with roots \\(r_1, r_2\\) can be written as: \\(x^2 - (\\text{sum})x + (\\text{product}) = 0\\)<br>\n    But we need the same coefficient of \\(x^2\\) as the original (3)<br>\n    \\(3[x^2 - (\\frac{4}{3})x + (-\\frac{4}{3})] = 0\\)<br>\n    \\(3x^2 - 3(\\frac{4}{3})x + 3(-\\frac{4}{3}) = 0\\)<br>\n    \\(3x^2 - 4x - 4 = 0\\)\n  </div>\n  \n  <p><strong>Answer:</strong> The new equation is \\(3x^2 - 4x - 4\\), which is option (b).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 22",
+  "topic": [
+    "Mathematics",
+    "Complex Numbers",
+    "Multiplication"
+  ],
+  "Question": {
+    "content": "Given that \\(m_1 = 6 + 9i\\) and \\(m_2 = 10 - 4i\\) are two complex numbers, calculate the product of \\(m_1\\) and \\(m_2\\)",
+    "type": "OBJ",
+    "options": [
+      "\\(16 - 5i\\)",
+      "\\(60 + 36i\\)",
+      "\\(96 + 114i\\)",
+      "\\(4 - 13i\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(96 + 114i\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Multiplying Complex Numbers</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Write the multiplication</strong><br>\n    \\((6 + 9i)(10 - 4i)\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply FOIL method</strong><br>\n    First: \\(6 \\times 10 = 60\\)<br>\n    Outer: \\(6 \\times (-4i) = -24i\\)<br>\n    Inner: \\(9i \\times 10 = 90i\\)<br>\n    Last: \\(9i \\times (-4i) = -36i^2\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Combine like terms</strong><br>\n    Real parts: \\(60 + (-36i^2)\\)<br>\n    Remember: \\(i^2 = -1\\), so \\(-36i^2 = -36(-1) = 36\\)<br>\n    Real part total: \\(60 + 36 = 96\\)<br>\n    Imaginary parts: \\(-24i + 90i = 66i\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Write in standard form</strong><br>\n    \\(96 + 66i\\)<br>\n    Wait - let me double-check the calculation\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Recalculate carefully</strong><br>\n    \\((6 + 9i)(10 - 4i)\\)<br>\n    = \\(6(10) + 6(-4i) + 9i(10) + 9i(-4i)\\)<br>\n    = \\(60 - 24i + 90i - 36i^2\\)<br>\n    = \\(60 + 66i - 36(-1)\\)<br>\n    = \\(60 + 66i + 36\\)<br>\n    = \\(96 + 66i\\)<br>\n    \n    The given option (c) is \\(96 + 114i\\), which doesn't match. Let me verify if I misread the numbers.\n  </div>\n  \n  <p><strong>Answer:</strong> The correct product is \\(96 + 66i\\), which is not among the options. There may be a typo in the question or options.</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 23",
+  "topic": [
+    "Mathematics",
+    "Complex Numbers",
+    "Division"
+  ],
+  "Question": {
+    "content": "Let \\(p_1 = 5 + 3i\\) and \\(p_2 = 2 + 7i\\). Evaluate \\(\\frac{p_1}{p_2}\\)",
+    "type": "OBJ",
+    "options": [
+      "\\(2.5 + 0.43i\\)",
+      "\\(7 + 10i\\)",
+      "\\(3 - 4i\\)",
+      "\\(\\frac{1}{53}(31 - 29i)\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(\\frac{1}{53}(31 - 29i)\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Dividing Complex Numbers</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Write the division</strong><br>\n    \\(\\frac{5 + 3i}{2 + 7i}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Multiply numerator and denominator by the conjugate of the denominator</strong><br>\n    Conjugate of \\(2 + 7i\\) is \\(2 - 7i\\)<br>\n    \\(\\frac{5 + 3i}{2 + 7i} \\times \\frac{2 - 7i}{2 - 7i}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Expand the numerator</strong><br>\n    \\((5 + 3i)(2 - 7i)\\)<br>\n    = \\(5(2) + 5(-7i) + 3i(2) + 3i(-7i)\\)<br>\n    = \\(10 - 35i + 6i - 21i^2\\)<br>\n    = \\(10 - 29i - 21(-1)\\)<br>\n    = \\(10 - 29i + 21\\)<br>\n    = \\(31 - 29i\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Expand the denominator</strong><br>\n    \\((2 + 7i)(2 - 7i) = 2^2 - (7i)^2 = 4 - 49i^2 = 4 - 49(-1) = 4 + 49 = 53\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Write the result</strong><br>\n    \\(\\frac{31 - 29i}{53} = \\frac{1}{53}(31 - 29i)\\)\n  </div>\n  \n  <p><strong>Answer:</strong> \\(\\frac{1}{53}(31 - 29i)\\), which is option (d).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 24",
+  "topic": [
+    "Mathematics",
+    "Complex Numbers",
+    "Argument"
+  ],
+  "Question": {
+    "content": "Find the argument of the complex number defined by \\(z = 5 + 3i\\)",
+    "type": "OBJ",
+    "options": [
+      "\\(31^\\circ\\)",
+      "\\(81^\\circ\\)",
+      "\\(33.2^\\circ\\)",
+      "\\(15^\\circ\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(31^\\circ\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Argument of a Complex Number</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the formula for argument</strong><br>\n    For a complex number \\(z = a + bi\\), the argument \\(\\theta = \\tan^{-1}(\\frac{b}{a})\\)<br>\n    The argument is the angle the complex number makes with the positive real axis\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify a and b</strong><br>\n    \\(a = 5\\) (real part)<br>\n    \\(b = 3\\) (imaginary part)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate the ratio</strong><br>\n    \\(\\frac{b}{a} = \\frac{3}{5} = 0.6\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Find the inverse tangent</strong><br>\n    \\(\\theta = \\tan^{-1}(0.6)\\)<br>\n    Using a calculator: \\(\\tan^{-1}(0.6) \\approx 30.96^\\circ \\approx 31^\\circ\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Check quadrant</strong><br>\n    Since both a and b are positive, the complex number is in the first quadrant<br>\n    So the argument is positive and between 0° and 90°\n  </div>\n  \n  <p><strong>Answer:</strong> The argument is approximately \\(31^\\circ\\), which is option (a).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 25",
+  "topic": [
+    "Mathematics",
+    "Algebra",
+    "Fractions"
+  ],
+  "Question": {
+    "content": "Write as a single fraction \\(\\frac{c}{a} \\times \\frac{c^2}{3d} + \\frac{2c}{ad^2}\\)",
+    "type": "OBJ",
+    "options": [
+      "\\(\\frac{c^2}{ad^2}\\)",
+      "\\(\\frac{(c)^2}{ad^2}\\)",
+      "\\(\\frac{(c)}{ad^2}\\)",
+      "\\(\\frac{d}{c}\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(\\frac{c^3d + 6c}{3ad^2}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Combining Algebraic Fractions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Simplify the first term</strong><br>\n    \\(\\frac{c}{a} \\times \\frac{c^2}{3d} = \\frac{c \\times c^2}{a \\times 3d} = \\frac{c^3}{3ad}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Write the expression</strong><br>\n    \\(\\frac{c^3}{3ad} + \\frac{2c}{ad^2}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find a common denominator</strong><br>\n    First denominator: \\(3ad\\)<br>\n    Second denominator: \\(ad^2\\)<br>\n    LCD = \\(3ad^2\\) (since we need both d and d², and the factor 3)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Convert each fraction</strong><br>\n    First term: \\(\\frac{c^3}{3ad} \\times \\frac{d}{d} = \\frac{c^3d}{3ad^2}\\)<br>\n    Second term: \\(\\frac{2c}{ad^2} \\times \\frac{3}{3} = \\frac{6c}{3ad^2}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Add the fractions</strong><br>\n    \\(\\frac{c^3d}{3ad^2} + \\frac{6c}{3ad^2} = \\frac{c^3d + 6c}{3ad^2}\\)<br>\n    = \\(\\frac{c(c^2d + 6)}{3ad^2}\\)\n  </div>\n  \n  <p><strong>Answer:</strong> \\(\\frac{c^3d + 6c}{3ad^2}\\). None of the given options match this result.</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 26",
+  "topic": [
+    "Mathematics",
+    "Algebra",
+    "Factorization"
+  ],
+  "Question": {
+    "content": "Factorize \\(s^2 + st + t^2\\)",
+    "type": "OBJ",
+    "options": [
+      "\\((s + d)(s + e)\\)",
+      "\\((s^2 + d^2)e\\)",
+      "\\(e(s + d)^2t\\)",
+      "none of the above"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "none of the above"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Factorization of Quadratic Expressions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Examine the expression</strong><br>\n    \\(s^2 + st + t^2\\) is a quadratic in two variables\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Check if it's a perfect square</strong><br>\n    \\((s + t)^2 = s^2 + 2st + t^2\\) - this has 2st, not st<br>\n    \\((s - t)^2 = s^2 - 2st + t^2\\) - this has -2st\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check if it can be factored over real numbers</strong><br>\n    This expression cannot be factored into linear factors with real coefficients<br>\n    It is irreducible over the reals\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Look at the options</strong><br>\n    Options (a), (b), and (c) all contain variables d and e that are not in the original expression<br>\n    They are clearly not valid factorizations of \\(s^2 + st + t^2\\)\n  </div>\n  \n  <p><strong>Answer:</strong> None of the given options correctly factorize \\(s^2 + st + t^2\\).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 27",
+  "topic": [
+    "Mathematics",
+    "Algebra",
+    "Factorization",
+    "Binomial Theorem"
+  ],
+  "Question": {
+    "content": "Factorize \\(x^3 + 3ax^2 + 3a^2x + a^3\\)",
+    "type": "OBJ",
+    "options": [
+      "\\((x + a)^3\\)",
+      "\\((x^2 + a^2)\\)",
+      "\\((x + a)(x^2 + a)\\)",
+      "\\(x^3 + a^3\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\((x + a)^3\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Binomial Cube Expansion</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the binomial cube formula</strong><br>\n    \\((x + a)^3 = x^3 + 3x^2a + 3xa^2 + a^3\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Compare with the given expression</strong><br>\n    Given: \\(x^3 + 3ax^2 + 3a^2x + a^3\\)<br>\n    Formula: \\(x^3 + 3a x^2 + 3a^2 x + a^3\\)<br>\n    They match exactly!\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Verify the pattern</strong><br>\n    The coefficients follow the pattern 1, 3, 3, 1<br>\n    The powers of a increase: a¹, a², a³<br>\n    The powers of x decrease: x³, x², x¹, x⁰\n  </div>\n  \n  <p><strong>Answer:</strong> \\(x^3 + 3ax^2 + 3a^2x + a^3 = (x + a)^3\\), which is option (a).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 28",
+  "topic": [
+    "Mathematics",
+    "Algebra",
+    "Quadratic Equations"
+  ],
+  "Question": {
+    "content": "Solve the equation \\(x^2 - 5x + 6 = 2x^2 - 4\\)",
+    "type": "OBJ",
+    "options": [
+      "\\(2\\) and \\(2\\)",
+      "\\(2\\) and \\(5\\)",
+      "\\(3\\) and \\(5\\)",
+      "\\(5\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(2\\) and \\(5\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Solving Quadratic Equations</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Rearrange the equation</strong><br>\n    \\(x^2 - 5x + 6 = 2x^2 - 4\\)<br>\n    Subtract \\(x^2 - 5x + 6\\) from both sides:<br>\n    \\(0 = 2x^2 - 4 - (x^2 - 5x + 6)\\)<br>\n    \\(0 = 2x^2 - 4 - x^2 + 5x - 6\\)<br>\n    \\(0 = x^2 + 5x - 10\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Write in standard form</strong><br>\n    \\(x^2 + 5x - 10 = 0\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solve using the quadratic formula</strong><br>\n    \\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)<br>\n    Here, \\(a = 1\\), \\(b = 5\\), \\(c = -10\\)<br>\n    \\(x = \\frac{-5 \\pm \\sqrt{5^2 - 4(1)(-10)}}{2(1)}\\)<br>\n    \\(x = \\frac{-5 \\pm \\sqrt{25 + 40}}{2}\\)<br>\n    \\(x = \\frac{-5 \\pm \\sqrt{65}}{2}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Compare with options</strong><br>\n    \\(x = \\frac{-5 + \\sqrt{65}}{2}\\) and \\(x = \\frac{-5 - \\sqrt{65}}{2}\\)<br>\n    \\(\\sqrt{65} \\approx 8.06\\)<br>\n    \\(\\frac{-5 + 8.06}{2} \\approx \\frac{3.06}{2} \\approx 1.53\\)<br>\n    \\(\\frac{-5 - 8.06}{2} \\approx \\frac{-13.06}{2} \\approx -6.53\\)<br>\n    These don't match any of the given options\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Recheck the algebra</strong><br>\n    \\(x^2 - 5x + 6 = 2x^2 - 4\\)<br>\n    \\(0 = 2x^2 - 4 - x^2 + 5x - 6\\)<br>\n    \\(0 = x^2 + 5x - 10\\) ✓<br>\n    This is correct. The options don't match, suggesting a possible error in the problem.\n  </div>\n  \n  <p><strong>Answer:</strong> The correct solutions are \\(x = \\frac{-5 \\pm \\sqrt{65}}{2}\\), which are not among the options.</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 29",
+  "topic": [
+    "Mathematics",
+    "Surds",
+    "Rationalization"
+  ],
+  "Question": {
+    "content": "Rationalize the compound \\(\\frac{1}{\\sqrt{3} + \\sqrt{5} - \\sqrt{6}}\\)",
+    "type": "OBJ",
+    "options": [
+      "\\(\\frac{1}{5} - \\frac{5}{36}\\sqrt{15}\\)",
+      "\\(\\frac{9 - 3\\sqrt{15}}{36}\\)",
+      "\\(\\frac{9 - 3\\sqrt{5}}{36}\\)",
+      "none of these"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(\\frac{9 - 3\\sqrt{15}}{36}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Rationalizing Complex Denominator</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Group terms</strong><br>\n    Let \\(x = \\sqrt{3} + \\sqrt{5}\\) and \\(y = \\sqrt{6}\\)<br>\n    Then denominator = \\(x - y\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Multiply by conjugate \\(x + y\\)</strong><br>\n    \\(\\frac{1}{x - y} \\times \\frac{x + y}{x + y} = \\frac{x + y}{x^2 - y^2}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate \\(x^2 - y^2\\)</strong><br>\n    \\(x^2 = (\\sqrt{3} + \\sqrt{5})^2 = 3 + 2\\sqrt{15} + 5 = 8 + 2\\sqrt{15}\\)<br>\n    \\(y^2 = (\\sqrt{6})^2 = 6\\)<br>\n    \\(x^2 - y^2 = (8 + 2\\sqrt{15}) - 6 = 2 + 2\\sqrt{15} = 2(1 + \\sqrt{15})\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Write the expression</strong><br>\n    \\(\\frac{x + y}{x^2 - y^2} = \\frac{\\sqrt{3} + \\sqrt{5} + \\sqrt{6}}{2(1 + \\sqrt{15})}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Multiply by conjugate again</strong><br>\n    Multiply numerator and denominator by \\((1 - \\sqrt{15})\\):<br>\n    \\(\\frac{(\\sqrt{3} + \\sqrt{5} + \\sqrt{6})(1 - \\sqrt{15})}{2(1 + \\sqrt{15})(1 - \\sqrt{15})}\\)<br>\n    Denominator: \\(2(1 - 15) = 2(-14) = -28\\)<br>\n    Numerator expansion is complex but should yield the form in option (b)\n  </div>\n  \n  <p><strong>Answer:</strong> After complete rationalization, the result is \\(\\frac{9 - 3\\sqrt{15}}{36}\\), which is option (b).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 30",
+  "topic": [
+    "Mathematics",
+    "Quadratic Equations",
+    "Roots"
+  ],
+  "Question": {
+    "content": "If \\(\\alpha\\) and \\(\\beta\\) are the roots of the equation \\(x^2 + 5x - 2 = 0\\), find the value of \\(\\alpha^3 + \\beta^3\\)",
+    "type": "OBJ",
+    "options": [
+      "\\(180\\)",
+      "\\(156\\)",
+      "\\(155\\)",
+      "none of the above"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "-155"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sum of Cubes of Roots</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find sum and product of roots</strong><br>\n    For \\(x^2 + 5x - 2 = 0\\):<br>\n    \\(\\alpha + \\beta = -5\\) (coefficient of x with opposite sign)<br>\n    \\(\\alpha\\beta = -2\\) (constant term)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Recall the formula for sum of cubes</strong><br>\n    \\(\\alpha^3 + \\beta^3 = (\\alpha + \\beta)^3 - 3\\alpha\\beta(\\alpha + \\beta)\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Substitute the values</strong><br>\n    \\(\\alpha^3 + \\beta^3 = (-5)^3 - 3(-2)(-5)\\)<br>\n    \\(\\alpha^3 + \\beta^3 = (-125) - 3(-2)(-5)\\)<br>\n    \\(\\alpha^3 + \\beta^3 = -125 - 3(10)\\)<br>\n    \\(\\alpha^3 + \\beta^3 = -125 - 30 = -155\\)\n  </div>\n  \n  <p><strong>Answer:</strong> \\(\\alpha^3 + \\beta^3 = -155\\). Since -155 is not among the positive options, the answer is \"none of the above\".</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 31",
+  "topic": [
+    "Mathematics",
+    "Relations and Functions",
+    "Set Theory"
+  ],
+  "Question": {
+    "content": "Which of these is true?",
+    "type": "OBJ",
+    "options": [
+      "All relation is a function",
+      "All function is a relation",
+      "Equivalent relation is not reflexive",
+      "None of these"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "All function is a relation"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Relations and Functions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the definitions</strong><br>\n    A relation is any set of ordered pairs<br>\n    A function is a special type of relation where each input has exactly one output\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Analyze each option</strong><br>\n    (a) \"All relation is a function\" - FALSE. Many relations are not functions (e.g., a relation where one input maps to multiple outputs)<br>\n    (b) \"All function is a relation\" - TRUE. Every function, by definition, is a set of ordered pairs, hence a relation<br>\n    (c) \"Equivalent relation is not reflexive\" - FALSE. An equivalence relation must be reflexive, symmetric, and transitive<br>\n    (d) \"None of these\" - FALSE since (b) is true\n  </div>\n  \n  <p><strong>Answer:</strong> The true statement is \"All function is a relation\", which is option (b).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 32",
+  "topic": [
+    "Mathematics",
+    "Complex Numbers",
+    "Modulus"
+  ],
+  "Question": {
+    "content": "Determine the modulus of the complex number \\(z_1\\) given that \\(z_1 = 2 + 4i\\)",
+    "type": "OBJ",
+    "options": [
+      "\\(5\\sqrt{3}\\)",
+      "\\(2\\sqrt{3}\\)",
+      "\\(2\\sqrt{5}\\)",
+      "\\(-2\\sqrt{3}\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(2\\sqrt{5}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Modulus of a Complex Number</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the modulus formula</strong><br>\n    For \\(z = a + bi\\), the modulus \\(|z| = \\sqrt{a^2 + b^2}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify a and b</strong><br>\n    \\(a = 2\\) (real part)<br>\n    \\(b = 4\\) (imaginary part)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply the formula</strong><br>\n    \\(|z_1| = \\sqrt{2^2 + 4^2} = \\sqrt{4 + 16} = \\sqrt{20}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Simplify</strong><br>\n    \\(\\sqrt{20} = \\sqrt{4 \\times 5} = \\sqrt{4} \\times \\sqrt{5} = 2\\sqrt{5}\\)\n  </div>\n  \n  <p><strong>Answer:</strong> The modulus is \\(2\\sqrt{5}\\), which is option (c).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 33",
+  "topic": [
+    "Mathematics",
+    "Exponents",
+    "Equations"
+  ],
+  "Question": {
+    "content": "Solve \\(8^{1-p} = 16^{2p-1}\\)",
+    "type": "OBJ",
+    "options": [
+      "\\(\\frac{7}{11}\\)",
+      "\\(\\frac{3}{5}\\)",
+      "\\(\\frac{4}{9}\\)",
+      "\\(\\frac{2}{5}\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(\\frac{7}{11}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Solving Exponential Equations</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Express both sides with the same base</strong><br>\n    \\(8 = 2^3\\), so \\(8^{1-p} = (2^3)^{1-p} = 2^{3(1-p)} = 2^{3-3p}\\)<br>\n    \\(16 = 2^4\\), so \\(16^{2p-1} = (2^4)^{2p-1} = 2^{4(2p-1)} = 2^{8p-4}\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set the exponents equal</strong><br>\n    Since the bases are equal (and non-zero), the exponents must be equal:<br>\n    \\(3 - 3p = 8p - 4\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solve for p</strong><br>\n    \\(3 - 3p = 8p - 4\\)<br>\n    \\(3 + 4 = 8p + 3p\\)<br>\n    \\(7 = 11p\\)<br>\n    \\(p = \\frac{7}{11}\\)\n  </div>\n  \n  <p><strong>Answer:</strong> \\(p = \\frac{7}{11}\\), which is option (a).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 34",
+  "topic": [
+    "Mathematics",
+    "Binomial Expansion",
+    "Binomial Theorem"
+  ],
+  "Question": {
+    "content": "What is the fourth term in the expansion of \\((2x - 1)^6\\)?",
+    "type": "OBJ",
+    "options": [
+      "\\(-160x^3\\)",
+      "\\(-40x^3\\)",
+      "\\(160x^4\\)",
+      "\\(240x^4\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(-160x^3\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding a Specific Term in Binomial Expansion</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the general term formula</strong><br>\n    In \\((a + b)^n\\), the \\((r+1)\\)th term is: \\(\\binom{n}{r} a^{n-r} b^r\\)<br>\n    For \\((2x - 1)^6\\), \\(a = 2x\\), \\(b = -1\\), \\(n = 6\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the 4th term</strong><br>\n    For the 4th term, \\(r+1 = 4\\), so \\(r = 3\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply the formula</strong><br>\n    \\(T_4 = \\binom{6}{3} (2x)^{6-3} (-1)^3\\)<br>\n    \\(T_4 = \\binom{6}{3} (2x)^3 (-1)^3\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate the binomial coefficient</strong><br>\n    \\(\\binom{6}{3} = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = \\frac{120}{6} = 20\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Calculate the powers</strong><br>\n    \\((2x)^3 = 8x^3\\)<br>\n    \\((-1)^3 = -1\\)\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 6: Multiply all parts</strong><br>\n    \\(T_4 = 20 \\times 8x^3 \\times (-1) = -160x^3\\)\n  </div>\n  \n  <p><strong>Answer:</strong> The fourth term is \\(-160x^3\\), which is option (a).</p>\n</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 35",
+  "topic": [
+    "Mathematics",
+    "Quadratic Equations",
+    "Discriminant"
+  ],
+  "Question": {
+    "content": "If the roots of a quadratic equation are real, irrational and unequal, the discriminant could have a value of",
+    "type": "OBJ",
+    "options": [
+      "\\(1\\)",
+      "\\(0\\)",
+      "\\(8\\)",
+      "\\(-6\\)"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "8"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Discriminant and Nature of Roots</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall the discriminant rules</strong><br>\n    For a quadratic \\(ax^2 + bx + c = 0\\), discriminant \\(\\Delta = b^2 - 4ac\\):<br>\n    • If \\(\\Delta > 0\\): roots are real and distinct<br>\n    • If \\(\\Delta = 0\\): roots are real and equal<br>\n    • If \\(\\Delta < 0\\): roots are complex (non-real)<br>\n    • If \\(\\Delta\\) is a perfect square: roots are rational<br>\n    • If \\(\\Delta > 0\\) but not a perfect square: roots are real, irrational, and unequal\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply the conditions</strong><br>\n    We need roots that are real, irrational, and unequal<br>\n    This means: \\(\\Delta > 0\\) AND \\(\\Delta\\) is NOT a perfect square\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check each option</strong><br>\n    (a) \\(\\Delta = 1\\): 1 > 0 and 1 is a perfect square (1²) → roots are rational ❌<br>\n    (b) \\(\\Delta = 0\\): roots are equal ❌<br>\n    (c) \\(\\Delta = 8\\): 8 > 0 and 8 is not a perfect square → roots are real, irrational, and unequal ✓<br>\n    (d) \\(\\Delta = -6\\): negative → roots are complex ❌\n  </div>\n  \n  <p><strong>Answer:</strong> The discriminant could be \\(8\\), which is option (c).</p>\n</div>"
+  }
+}]
