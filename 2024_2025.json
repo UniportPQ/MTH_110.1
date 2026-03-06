@@ -152,7 +152,7 @@
     "Algebra"
   ],
   "Question": {
-    "content": "Given that \\(\\frac{3x-5}{(x-1)(x+2)}\\) is equal to \\(\\frac{A}{(x+1)} + \\frac{B}{(x+2)}\\), determine the values of A and B.",
+    "content": "Given that \\(\\frac{3x-5}{(x+1)(x+2)}\\) is equal to \\(\\frac{A}{(x+1)} + \\frac{B}{(x+2)}\\), determine the values of A and B.",
     "type": "OBJ",
     "options": [
       "-8, 15",
@@ -163,11 +163,11 @@
   },
   "Answer": {
     "type": "string",
-    "content": "none of these"
+    "content": "-8, 11"
   },
   "Explanation": {
     "type": "string",
-    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Partial Fraction Decomposition</h4> <p>We need to find A and B such that: <br> \\(\\frac{3x-5}{(x-1)(x+2)} = \\frac{A}{x-1} + \\frac{B}{x+2}\\). <br> <strong style='color: var(--strongColor);'>Note:</strong> The problem has a typo; the denominator factor should be \\((x-1)\\), not \\((x+1)\\), to match the left side. We will solve assuming the intended decomposition is over \\((x-1)\\) and \\((x+2)\\).</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Clear the denominator.</strong><br> Multiply both sides by \\((x-1)(x+2)\\): <br> \\(3x - 5 = A(x+2) + B(x-1)\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Expand and collect like terms.</strong><br> \\(3x - 5 = Ax + 2A + Bx - B\\) <br> \\(3x - 5 = (A + B)x + (2A - B)\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 3: Equate coefficients.</strong><br> This gives a system of equations: <br> 1) \\(A + B = 3\\) <br> 2) \\(2A - B = -5\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 4: Solve the system.</strong><br> Add the two equations together: <br> \\((A + B) + (2A - B) = 3 + (-5)\\) <br> \\(3A = -2\\) <br> \\(A = -\\frac{2}{3}\\) <br> Substitute into equation (1): \\(-\\frac{2}{3} + B = 3\\) <br> \\(B = 3 + \\frac{2}{3} = \\frac{9}{3} + \\frac{2}{3} = \\frac{11}{3}\\) </div> <div style='margin-bottom: 12px;'> The values are \\(A = -\\frac{2}{3}\\) and \\(B = \\frac{11}{3}\\), which are not integers. None of the given options match, so the correct choice is 'none of these'. </div> </div>"
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'> <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Partial Fraction Decomposition</h4> <p>To solve for A and B, we equate the numerators after finding a common denominator on the right side.</p> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 1: Set up the equation.</strong><br> Multiply both sides by the denominator \\((x+1)(x+2)\\):<br> \\(3x - 5 = A(x+2) + B(x+1)\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 2: Solve for B using substitution.</strong><br> To eliminate A, let \\(x = -2\\):<br> \\(3(-2) - 5 = A(-2+2) + B(-2+1)\\)<br> \\(-6 - 5 = B(-1)\\)<br> \\(-11 = -B \\Rightarrow B = 11\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Step 3: Solve for A using substitution.</strong><br> To eliminate B, let \\(x = -1\\):<br> \\(3(-1) - 5 = A(-1+2) + B(-1+1)\\)<br> \\(-3 - 5 = A(1)\\)<br> \\(A = -8\\) </div> <div style='margin-bottom: 12px;'> <strong style='color: var(--strongColor);'>Conclusion:</strong><br> The values are \\(A = -8\\) and \\(B = 11\\), which corresponds to option <strong>c</strong>. </div> </div>"
   }
 },
 {
