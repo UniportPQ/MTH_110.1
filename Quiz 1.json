@@ -1,0 +1,691 @@
+[
+  
+  {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "Algebra and trigonometry",
+    "code": "MTH 110.1",
+    "session": "Quiz 1",
+    "topics": ["Algebra", "Quadratic Equations", "Roots of Equations", "Complex Numbers", "Sets", "Venn Diagrams", "Inequalities", "Number Systems", "Real Numbers", "Functions", "Domain and Range", "Argument", "Cartesian Product", "Surds", "Simplification", "Absolute Value", "Inverse Functions", "Polynomials", "Remainder Theorem", "Irrational Numbers", "Set Theory", "Rationalization", "Modulus", "Discriminant", "Subsets", "Definitions", "Complement", "Partial Fractions"],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  }  ,
+  
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Algebra", "Quadratic Equations", "Roots of Equations"],
+    "Question": {
+      "content": "If \\(\\alpha\\) and \\(\\beta\\) are roots of the equation \\(x^2 - 4x + 1 = 0\\), find \\(\\alpha^3 + \\beta^3\\).",
+      "type": "OBJ",
+      "options": ["52", "28", "16", "20"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "52"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding \\(\\alpha^3 + \\beta^3\\)</h4><p>From Vieta's formulas, for \\(x^2 - 4x + 1 = 0\\):</p><p>\\(\\alpha + \\beta = 4\\) &nbsp;&nbsp; \\(\\alpha\\beta = 1\\)</p><p><strong style='color: var(--strongColor);'>Step 1 – Find \\(\\alpha^2 + \\beta^2\\):</strong></p><p>\\(\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta\\)</p><p>\\(= 4^2 - 2(1) = 16 - 2 = 14\\)</p><p><strong style='color: var(--strongColor);'>Step 2 – Use the cube identity:</strong></p><p>\\(\\alpha^3 + \\beta^3 = (\\alpha + \\beta)(\\alpha^2 - \\alpha\\beta + \\beta^2)\\)</p><p>\\(= (\\alpha + \\beta)\\bigl[(\\alpha^2 + \\beta^2) - \\alpha\\beta\\bigr]\\)</p><p>\\(= 4 \\times (14 - 1) = 4 \\times 13 = \\mathbf{52}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Complex Numbers", "Algebra"],
+    "Question": {
+      "content": "Express the complex number \\(\\dfrac{3 + 4i}{1 - 2i}\\) in the form \\(a + bi\\).",
+      "type": "OBJ",
+      "options": ["1 + 2i", "−1 + 2i", "−1 − 2i", "1 − 2i"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "−1 + 2i"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Dividing Complex Numbers</h4><p>To divide, multiply numerator and denominator by the <em>conjugate</em> of the denominator. The conjugate of \\(1 - 2i\\) is \\(1 + 2i\\).</p><p><strong style='color: var(--strongColor);'>Step 1 – Multiply:</strong></p><p>\\(\\dfrac{(3+4i)(1+2i)}{(1-2i)(1+2i)}\\)</p><p><strong style='color: var(--strongColor);'>Step 2 – Expand the numerator:</strong></p><p>\\((3+4i)(1+2i) = 3 + 6i + 4i + 8i^2\\)</p><p>Since \\(i^2 = -1\\): \\(= 3 + 10i - 8 = -5 + 10i\\)</p><p><strong style='color: var(--strongColor);'>Step 3 – Expand the denominator:</strong></p><p>\\((1-2i)(1+2i) = 1 + 4 = 5\\)</p><p><strong style='color: var(--strongColor);'>Step 4 – Divide:</strong></p><p>\\(\\dfrac{-5 + 10i}{5} = -1 + 2i\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Sets", "Venn Diagrams"],
+    "Question": {
+      "content": "In a class of 120 students, 70 offer Mathematics, 65 offer Physics, and 30 offer both. How many students offer neither subject?",
+      "type": "OBJ",
+      "options": ["15", "10", "20", "25"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "15"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Sets – Inclusion-Exclusion Principle</h4><p>The formula for the union of two sets is:</p><p>\\(|M \\cup P| = |M| + |P| - |M \\cap P|\\)</p><p>\\(= 70 + 65 - 30 = 105\\)</p><p><strong style='color: var(--strongColor);'>Students offering neither:</strong></p><p>\\(= \\text{Total} - |M \\cup P| = 120 - 105 = \\mathbf{15}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Inequalities", "Algebra"],
+    "Question": {
+      "content": "Solve the inequality: \\(3 - 2x \\geq 5\\).",
+      "type": "OBJ",
+      "options": ["x ≤ −1", "x ≥ −1", "x ≤ 1", "x ≥ 1"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x ≤ −1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Solving a Linear Inequality</h4><p>\\(3 - 2x \\geq 5\\)</p><p>Subtract 3 from both sides:</p><p>\\(-2x \\geq 2\\)</p><p>Divide by \\(-2\\). <strong style='color:var(--strongColor);'>Remember: dividing by a negative number flips the inequality sign!</strong></p><p>\\(x \\leq -1\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Number Systems", "Real Numbers"],
+    "Question": {
+      "content": "Which of the following is a non-terminating recurring decimal?",
+      "type": "OBJ",
+      "options": ["1/4", "1/5", "1/3", "1/8"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1/3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Terminating vs Recurring Decimals</h4><p>A fraction gives a <em>terminating</em> decimal if its denominator (in lowest terms) has only 2 and 5 as prime factors.</p><ul style='margin: 8px 0;'><li>\\(1/4 = 0.25\\) ✓ terminates (4 = 2²)</li><li>\\(1/5 = 0.2\\) ✓ terminates</li><li>\\(1/8 = 0.125\\) ✓ terminates (8 = 2³)</li><li>\\(1/3 = 0.333...\\) ✗ <strong>non-terminating recurring</strong> — 3 is neither 2 nor 5</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Functions", "Domain and Range", "Algebra"],
+    "Question": {
+      "content": "If \\(f(x) = \\sqrt{x - 2}\\), find the domain of \\(f\\).",
+      "type": "OBJ",
+      "options": ["x ≥ 2", "x > 2", "x ≤ 2", "All real numbers"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x ≥ 2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Domain of a Square Root Function</h4><p>You cannot take the square root of a negative number in real numbers. So the expression inside the root must be <strong>zero or positive</strong>:</p><p>\\(x - 2 \\geq 0\\)</p><p>\\(x \\geq 2\\)</p><p>Note: \\(x = 2\\) is included because \\(\\sqrt{0} = 0\\) which is valid.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Algebra", "Quadratic Equations", "Roots of Equations"],
+    "Question": {
+      "content": "If \\(\\alpha\\) and \\(\\beta\\) are roots of \\(x^2 - 5x + 6 = 0\\), find an equation whose roots are \\((\\alpha - 1)\\) and \\((\\beta - 1)\\).",
+      "type": "OBJ",
+      "options": ["x² − 3x + 2 = 0", "x² − 5x + 4 = 0", "x² − 3x + 4 = 0", "x² − 4x + 3 = 0"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x² − 3x + 2 = 0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>New Equation from Transformed Roots</h4><p>From \\(x^2 - 5x + 6 = 0\\): &nbsp; \\(\\alpha + \\beta = 5\\), &nbsp; \\(\\alpha\\beta = 6\\)</p><p><strong style='color: var(--strongColor);'>New sum of roots:</strong></p><p>\\((\\alpha-1)+(\\beta-1) = (\\alpha+\\beta) - 2 = 5 - 2 = 3\\)</p><p><strong style='color: var(--strongColor);'>New product of roots:</strong></p><p>\\((\\alpha-1)(\\beta-1) = \\alpha\\beta - (\\alpha+\\beta) + 1 = 6 - 5 + 1 = 2\\)</p><p><strong style='color: var(--strongColor);'>New equation:</strong></p><p>\\(x^2 - (\\text{sum})x + (\\text{product}) = 0\\)</p><p>\\(x^2 - 3x + 2 = 0\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Complex Numbers", "Argument", "Algebra"],
+    "Question": {
+      "content": "The argument of the complex number \\(-1 + \\sqrt{3}\\,i\\) is:",
+      "type": "OBJ",
+      "options": ["π/6", "π/3", "2π/3", "π"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2π/3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Argument of a Complex Number</h4><p>Here \\(a = -1\\), \\(b = \\sqrt{3}\\). The number lies in the <strong>second quadrant</strong> (negative real, positive imaginary).</p><p><strong style='color: var(--strongColor);'>Step 1 – Reference angle:</strong></p><p>\\(\\theta_{\\text{ref}} = \\arctan\\!\\left(\\dfrac{|b|}{|a|}\\right) = \\arctan\\!\\left(\\dfrac{\\sqrt{3}}{1}\\right) = \\dfrac{\\pi}{3}\\)</p><p><strong style='color: var(--strongColor);'>Step 2 – Adjust for second quadrant:</strong></p><p>\\(\\arg = \\pi - \\dfrac{\\pi}{3} = \\dfrac{2\\pi}{3}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Sets", "Cartesian Product"],
+    "Question": {
+      "content": "If \\(A = \\{1, 2, 3\\}\\) and \\(B = \\{a, b\\}\\), find the number of elements in \\(A \\times B\\).",
+      "type": "OBJ",
+      "options": ["5", "6", "3", "4"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "6"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Cartesian Product</h4><p>\\(A \\times B\\) means every element of \\(A\\) paired with every element of \\(B\\).</p><p>\\(|A \\times B| = |A| \\times |B| = 3 \\times 2 = \\mathbf{6}\\)</p><p>The pairs are: (1,a), (1,b), (2,a), (2,b), (3,a), (3,b)</p></div>"
+    }
+  },
+
+
+{
+  "type": "Question",
+  "name": "Question 10",
+  "topic": ["Surds", "Simplification", "Algebra"],
+  "Question": {
+    "content": "Simplify: \\(\\sqrt{50} - \\sqrt{18}\\).",
+    "type": "OBJ",
+    "options": ["√2", "2√2", "4√2", "5√2"]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "2√2"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Simplifying Surds</h4><p>Break each surd into a perfect square factor:</p><p>\\(\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}\\)</p><p>\\(\\sqrt{18} = \\sqrt{9 \\times 2} = 3\\sqrt{2}\\)</p><p>Now subtract:</p><p>\\(5\\sqrt{2} - 3\\sqrt{2} = \\mathbf{2\\sqrt{2}}\\)</p></div>"
+  }
+},
+{
+    "type": "Question",
+    "name": "Question 11",
+    "topic": ["Algebra", "Quadratic Equations", "Roots of Equations"],
+    "Question": {
+      "content": "If \\(\\alpha\\) and \\(\\beta\\) are roots of \\(2x^2 - 3x + 1 = 0\\), find \\(\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha}\\).",
+      "type": "OBJ",
+      "options": ["5", "3", "1", "2"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding \\(\\alpha/\\beta + \\beta/\\alpha\\)</h4><p>From \\(2x^2 - 3x + 1 = 0\\): &nbsp; \\(\\alpha+\\beta = \\dfrac{3}{2}\\), &nbsp; \\(\\alpha\\beta = \\dfrac{1}{2}\\)</p><p><strong style='color: var(--strongColor);'>Combine the fractions:</strong></p><p>\\(\\dfrac{\\alpha}{\\beta} + \\dfrac{\\beta}{\\alpha} = \\dfrac{\\alpha^2 + \\beta^2}{\\alpha\\beta}\\)</p><p><strong style='color: var(--strongColor);'>Find \\(\\alpha^2 + \\beta^2\\):</strong></p><p>\\(\\alpha^2 + \\beta^2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta = \\left(\\dfrac{3}{2}\\right)^2 - 2\\cdot\\dfrac{1}{2} = \\dfrac{9}{4} - 1 = \\dfrac{5}{4}\\)</p><p><strong style='color: var(--strongColor);'>Divide:</strong></p><p>\\(\\dfrac{5/4}{1/2} = \\dfrac{5}{4} \\times 2 = \\mathbf{5}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Inequalities", "Absolute Value", "Algebra"],
+    "Question": {
+      "content": "Solve: \\(|x - 3| \\leq 2\\).",
+      "type": "OBJ",
+      "options": ["1 ≤ x ≤ 5", "x ≥ 5", "x ≤ 1", "−1 ≤ x ≤ 5"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1 ≤ x ≤ 5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Solving an Absolute Value Inequality (≤)</h4><p>For \\(|A| \\leq k\\), the rule is: \\(-k \\leq A \\leq k\\)</p><p>So \\(|x - 3| \\leq 2\\) becomes:</p><p>\\(-2 \\leq x - 3 \\leq 2\\)</p><p>Add 3 to all parts:</p><p>\\(1 \\leq x \\leq 5\\)</p></div>"
+    }
+  },
+
+
+
+{
+  "type": "Question",
+  "name": "Question 13",
+  "topic": ["Sets", "Venn Diagrams"],
+  "Question": {
+    "content": "In a group of 200 students, 80 offer Math, 70 offer Government, 60 offer Economics, and 30 offer all three. Find the minimum number offering at least one subject.",
+    "type": "OBJ",
+    "options": ["110", "120", "140", "150"]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "150"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Minimum Number Offering at Least One Subject</h4><p>To minimize the number offering at least one subject, we maximize the overlap between subjects. The maximum possible overlap occurs when all pairwise intersections are as large as possible, bounded by the size of the triple intersection.</p><p>Given that 30 students take all three subjects, the maximum possible values for each pairwise intersection is also 30 (since the triple intersection is contained within each pair).</p><p><strong style='color: var(--strongColor);'>Using the Inclusion-Exclusion Principle:</strong></p><p>\\(|M \\cup G \\cup E| = |M| + |G| + |E| - |M \\cap G| - |M \\cap E| - |G \\cap E| + |M \\cap G \\cap E|\\)</p><p>Substituting the maximum overlaps:</p><p>\\(= 80 + 70 + 60 - 30 - 30 - 30 + 30\\)</p><p>\\(= 210 - 90 + 30\\)</p><p>\\(= 150\\)</p><p>Therefore, the <strong>minimum</strong> number of students offering at least one subject is <strong>150</strong>.</p><p>This corresponds to option <strong>150</strong>.</p></div>"
+  }
+},
+{
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Number Systems", "Real Numbers"],
+    "Question": {
+      "content": "Which of the following statements is TRUE?",
+      "type": "OBJ",
+      "options": [
+        "Every irrational number is terminating",
+        "Every rational number is either terminating or recurring",
+        "Every real number is irrational",
+        "Irrational numbers are integers"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Every rational number is either terminating or recurring"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Properties of Rational Numbers</h4><p>This is a fundamental fact in number theory:</p><p>A number is <strong>rational</strong> if and only if its decimal expansion either <em>terminates</em> (e.g., 0.5) or is <em>recurring</em> (e.g., 0.333...).</p><p>The other options are all false:</p><ul style='margin-top:8px;'><li>Irrationals are <em>non-terminating, non-recurring</em> (e.g., \\(\\sqrt{2}\\), \\(\\pi\\))</li><li>Real numbers include both rationals and irrationals</li><li>Irrational numbers are definitely not integers</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": ["Functions", "Inverse Functions", "Algebra"],
+    "Question": {
+      "content": "If \\(f(x) = 2x + 3\\), find \\(f^{-1}(x)\\).",
+      "type": "OBJ",
+      "options": ["(x − 3)/2", "(x + 3)/2", "2x − 3", "x − 2"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(x − 3)/2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding an Inverse Function</h4><p>To find the inverse, swap \\(x\\) and \\(y\\) and solve for \\(y\\).</p><p>Start: \\(y = 2x + 3\\)</p><p>Swap: \\(x = 2y + 3\\)</p><p>Solve for \\(y\\):</p><p>\\(x - 3 = 2y\\)</p><p>\\(y = \\dfrac{x - 3}{2}\\)</p><p>So \\(f^{-1}(x) = \\dfrac{x-3}{2}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Algebra", "Polynomials", "Remainder Theorem"],
+    "Question": {
+      "content": "Find the remainder when \\(x^3 - x^2 + 2x - 1\\) is divided by \\((x - 1)\\).",
+      "type": "OBJ",
+      "options": ["1", "0", "2", "−1"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Remainder Theorem</h4><p>The Remainder Theorem states: when \\(f(x)\\) is divided by \\((x - a)\\), the remainder is \\(f(a)\\).</p><p>Here, \\(a = 1\\):</p><p>\\(f(1) = 1^3 - 1^2 + 2(1) - 1\\)</p><p>\\(= 1 - 1 + 2 - 1 = \\mathbf{1}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": ["Algebra", "Quadratic Equations", "Complex Numbers", "Roots of Equations"],
+    "Question": {
+      "content": "If \\(\\alpha\\) and \\(\\beta\\) are roots of \\(x^2 + 2x + 5 = 0\\), find \\(\\alpha^2 + \\beta^2\\).",
+      "type": "OBJ",
+      "options": ["−6", "−2", "6", "2"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "−6"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding \\(\\alpha^2 + \\beta^2\\)</h4><p>From \\(x^2 + 2x + 5 = 0\\): &nbsp; \\(\\alpha+\\beta = -2\\), &nbsp; \\(\\alpha\\beta = 5\\)</p><p>\\(\\alpha^2 + \\beta^2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta\\)</p><p>\\(= (-2)^2 - 2(5) = 4 - 10 = \\mathbf{-6}\\)</p><p style='background:var(--infoBg); color:var(--infoCl); padding:8px; border-radius:6px; margin-top:10px;'>ℹ️ The roots of this equation are actually complex numbers, but Vieta's formulas still work perfectly to find expressions like \\(\\alpha^2+\\beta^2\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Number Systems", "Irrational Numbers", "Surds"],
+    "Question": {
+      "content": "Which of the following is irrational?",
+      "type": "OBJ",
+      "options": ["√16", "0.25", "√7", "3/5"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "√7"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Identifying Irrational Numbers</h4><ul style='margin:0; padding-left:18px;'><li>\\(\\sqrt{16} = 4\\) — rational (perfect square)</li><li>\\(0.25 = \\dfrac{1}{4}\\) — rational (terminating decimal)</li><li>\\(\\dfrac{3}{5} = 0.6\\) — rational</li><li>\\(\\sqrt{7}\\) — <strong>irrational</strong>: 7 is not a perfect square, so it cannot be written as a fraction</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Inequalities", "Absolute Value", "Algebra"],
+    "Question": {
+      "content": "Solve the inequality: \\(|2x + 1| > 3\\).",
+      "type": "OBJ",
+      "options": ["x > 1 or x < −2", "x ≥ 1 or x ≤ −2", "−2 < x < 1", "x > 2"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x > 1 or x < −2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Solving Absolute Value Inequality (>)</h4><p>For \\(|A| > k\\), the solution is: \\(A > k\\) <em>or</em> \\(A < -k\\)</p><p><strong style='color: var(--strongColor);'>Case 1:</strong> \\(2x + 1 > 3 \\Rightarrow 2x > 2 \\Rightarrow x > 1\\)</p><p><strong style='color: var(--strongColor);'>Case 2:</strong> \\(2x + 1 < -3 \\Rightarrow 2x < -4 \\Rightarrow x < -2\\)</p><p>Answer: \\(x > 1\\) or \\(x < -2\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": ["Sets", "Set Theory"],
+    "Question": {
+      "content": "If \\(A \\subseteq B\\) and \\(B \\subseteq A\\), then:",
+      "type": "OBJ",
+      "options": ["A ≠ B", "A = B", "A is empty", "B is universal"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A = B"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Set Equality</h4><p>If every element of \\(A\\) is in \\(B\\) (\\(A \\subseteq B\\)) AND every element of \\(B\\) is in \\(A\\) (\\(B \\subseteq A\\)), then both sets must contain exactly the same elements.</p><p>Therefore \\(A = B\\). This is actually the standard definition of set equality.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": ["Surds", "Rationalization", "Algebra"],
+    "Question": {
+      "content": "Rationalize: \\(\\dfrac{1}{\\sqrt{5} - 2}\\).",
+      "type": "OBJ",
+      "options": ["√5 + 2", "(√5 + 2)/1", "√5 − 2", "(√5 + 2)/(5 − 4)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "√5 + 2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Rationalizing the Denominator</h4><p>Multiply numerator and denominator by the conjugate \\((\\sqrt{5} + 2)\\):</p><p>\\(\\dfrac{1}{\\sqrt{5}-2} \\times \\dfrac{\\sqrt{5}+2}{\\sqrt{5}+2}\\)</p><p>Denominator: \\((\\sqrt{5})^2 - 2^2 = 5 - 4 = 1\\)</p><p>Numerator: \\(\\sqrt{5} + 2\\)</p><p>Result: \\(\\dfrac{\\sqrt{5}+2}{1} = \\sqrt{5} + 2\\)</p><p style='background:var(--infoBg); color:var(--infoCl); padding:8px; border-radius:6px; margin-top:10px;'>ℹ️ Options A and B are the same value; the cleanest form is \\(\\sqrt{5}+2\\) (option A).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": ["Complex Numbers", "Modulus", "Algebra"],
+    "Question": {
+      "content": "If \\(z = 2 - 2i\\), find \\(|z|\\).",
+      "type": "OBJ",
+      "options": ["2", "4", "2√2", "√2"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2√2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Modulus of a Complex Number</h4><p>The modulus formula is: \\(|z| = \\sqrt{a^2 + b^2}\\)</p><p>For \\(z = 2 - 2i\\), &nbsp; \\(a = 2\\), \\(b = -2\\):</p><p>\\(|z| = \\sqrt{2^2 + (-2)^2} = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": ["Algebra", "Quadratic Equations", "Discriminant"],
+    "Question": {
+      "content": "If \\(\\alpha\\) and \\(\\beta\\) are roots of \\(x^2 - 6x + 9 = 0\\), then the nature of the roots is:",
+      "type": "OBJ",
+      "options": ["Distinct", "Equal", "Complex", "Irrational"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Equal"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Nature of Roots via Discriminant</h4><p>For \\(ax^2 + bx + c = 0\\), the discriminant is \\(\\Delta = b^2 - 4ac\\).</p><p>Here: \\(\\Delta = (-6)^2 - 4(1)(9) = 36 - 36 = 0\\)</p><p>Since \\(\\Delta = 0\\), the roots are <strong>real and equal</strong>.</p><p>Indeed: \\(x^2 - 6x + 9 = (x-3)^2 = 0 \\Rightarrow x = 3\\) (repeated root)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": ["Sets", "Subsets"],
+    "Question": {
+      "content": "Find the number of subsets of a set with 4 elements.",
+      "type": "OBJ",
+      "options": ["8", "16", "12", "4"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "16"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Number of Subsets</h4><p>A set with \\(n\\) elements has \\(2^n\\) subsets (including the empty set and the set itself).</p><p>For \\(n = 4\\): \\(2^4 = \\mathbf{16}\\)</p><p style='background:var(--infoBg); color:var(--infoCl); padding:8px; border-radius:6px; margin-top:8px;'>ℹ️ Each element is either <em>in</em> or <em>out</em> of a subset — 2 choices per element, 4 elements: \\(2 \\times 2 \\times 2 \\times 2 = 16\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": ["Inequalities", "Absolute Value", "Algebra"],
+    "Question": {
+      "content": "Solve: \\(|x + 2| \\geq 4\\).",
+      "type": "OBJ",
+      "options": ["x ≥ 2 or x ≤ −6", "x ≥ −2", "x ≤ 2", "−6 ≤ x ≤ 2"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x ≥ 2 or x ≤ −6"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Solving Absolute Value Inequality (≥)</h4><p>For \\(|A| \\geq k\\): \\(A \\geq k\\) <em>or</em> \\(A \\leq -k\\)</p><p><strong style='color:var(--strongColor);'>Case 1:</strong> \\(x + 2 \\geq 4 \\Rightarrow x \\geq 2\\)</p><p><strong style='color:var(--strongColor);'>Case 2:</strong> \\(x + 2 \\leq -4 \\Rightarrow x \\leq -6\\)</p><p>Answer: \\(x \\geq 2\\) or \\(x \\leq -6\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": ["Number Systems", "Real Numbers", "Definitions"],
+    "Question": {
+      "content": "Which of the following is NOT defined in real numbers?",
+      "type": "OBJ",
+      "options": ["√9", "1/0", "0", "5"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1/0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Undefined in Real Numbers</h4><p>Division by zero is <strong>undefined</strong> — there is no real number that satisfies \\(0 \\times x = 1\\).</p><ul style='margin-top:8px;'><li>\\(\\sqrt{9} = 3\\) ✓ defined</li><li>\\(0\\) ✓ defined</li><li>\\(5\\) ✓ defined</li><li>\\(1/0\\) ✗ <strong>undefined</strong></li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": ["Algebra", "Quadratic Equations", "Roots of Equations"],
+    "Question": {
+      "content": "If \\(\\alpha\\) and \\(\\beta\\) are roots of \\(x^2 - 3x + 2 = 0\\), find the equation whose roots are \\(\\alpha^3\\) and \\(\\beta^3\\).",
+      "type": "OBJ",
+      "options": ["x² − 9x + 8 = 0", "x² − 7x + 6 = 0", "x² − 5x + 4 = 0", "x² − 3x + 8 = 0"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x² − 9x + 8 = 0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding Equation with Cubed Roots</h4><p>From \\(x^2 - 3x + 2 = 0\\): &nbsp; \\(\\alpha+\\beta = 3\\), &nbsp; \\(\\alpha\\beta = 2\\)</p><p>Roots are \\(\\alpha = 1\\), \\(\\beta = 2\\) (by factoring: \\((x-1)(x-2) = 0\\))</p><p><strong style='color:var(--strongColor);'>New roots:</strong> \\(\\alpha^3 = 1\\), \\(\\beta^3 = 8\\)</p><p><strong style='color:var(--strongColor);'>New sum:</strong> \\(1 + 8 = 9\\)</p><p><strong style='color:var(--strongColor);'>New product:</strong> \\(1 \\times 8 = 8\\)</p><p><strong style='color:var(--strongColor);'>New equation:</strong> \\(x^2 - 9x + 8 = 0\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": ["Sets", "Venn Diagrams"],
+    "Question": {
+      "content": "In a group of 100 students, 60 like Math, 50 like Physics, and 20 like both. How many like neither?",
+      "type": "OBJ",
+      "options": ["10", "20", "30", "40"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding Students who Like Neither</h4><p>\\(|M \\cup P| = |M| + |P| - |M \\cap P| = 60 + 50 - 20 = 90\\)</p><p>Neither = Total \\(-\\) \\(|M \\cup P| = 100 - 90 = \\mathbf{10}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": ["Surds", "Simplification", "Algebra"],
+    "Question": {
+      "content": "Simplify: \\(\\sqrt{12} + \\sqrt{27}\\).",
+      "type": "OBJ",
+      "options": ["5√3", "6√3", "7√3", "9√3"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5√3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Simplifying Surds</h4><p>\\(\\sqrt{12} = \\sqrt{4 \\times 3} = 2\\sqrt{3}\\)</p><p>\\(\\sqrt{27} = \\sqrt{9 \\times 3} = 3\\sqrt{3}\\)</p><p>\\(2\\sqrt{3} + 3\\sqrt{3} = \\mathbf{5\\sqrt{3}}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": ["Sets", "Complement"],
+    "Question": {
+      "content": "If \\(U = \\{1, 2, 3, 4, 5\\}\\) and \\(A = \\{2, 3\\}\\), find \\(A'\\) (the complement of A).",
+      "type": "OBJ",
+      "options": ["{1, 4, 5}", "{2, 3}", "{1, 2}", "{3, 4}"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "{1, 4, 5}"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Complement of a Set</h4><p>The complement \\(A'\\) contains all elements in the universal set \\(U\\) that are <em>not</em> in \\(A\\).</p><p>\\(U = \\{1,2,3,4,5\\}\\), &nbsp; \\(A = \\{2,3\\}\\)</p><p>\\(A' = \\{1, 4, 5\\}\\)</p></div>"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Section B",
+    "Subheading": "Structured / Subjective Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 31a",
+    "topic": ["Algebra", "Quadratic Equations", "Roots of Equations"],
+    "Question": {
+      "content": "If \\(\\alpha\\) and \\(\\beta\\) are roots of \\(x^2 - 5x + 6 = 0\\), find the equation whose roots are \\(\\alpha^3\\) and \\(\\beta^3\\).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x² − 9x + 8 = 0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Equation with Cubed Roots</h4><p>From \\(x^2 - 5x + 6 = 0\\):<br>\\(\\alpha + \\beta = 5\\), &nbsp; \\(\\alpha\\beta = 6\\)</p><p>Factoring: \\((x-2)(x-3)=0 \\Rightarrow \\alpha=2,\\ \\beta=3\\)</p><p><strong style='color:var(--strongColor);'>Cubed roots:</strong><br>\\(\\alpha^3 = 8\\), &nbsp; \\(\\beta^3 = 27\\)</p><p><strong style='color:var(--strongColor);'>New sum:</strong> \\(8 + 27 = 35\\)</p><p><strong style='color:var(--strongColor);'>New product:</strong> \\(8 \\times 27 = 216\\)</p><p><strong style='color:var(--strongColor);'>New equation:</strong><br>\\(x^2 - 35x + 216 = 0\\)</p><p style='background:var(--warningBg); padding:8px; border-radius:6px; margin-top:10px;'>⚠️ Note: This is the exact answer. If your tutor's answer sheet gives \\(x^2 - 9x + 8 = 0\\), that corresponds to Question 27 (roots from \\(x^2-3x+2=0\\)). Make sure you're referencing the correct question.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31b",
+    "topic": ["Algebra", "Quadratic Equations", "Roots of Equations"],
+    "Question": {
+      "content": "If \\(\\alpha\\) and \\(\\beta\\) are roots of \\(x^2 - 5x + 6 = 0\\), find the equation whose roots are \\((\\alpha - 1)\\) and \\((\\beta - 1)\\).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x² − 3x + 2 = 0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Equation with Shifted Roots</h4><p>From \\(x^2 - 5x + 6 = 0\\):<br>\\(\\alpha+\\beta = 5\\), &nbsp; \\(\\alpha\\beta = 6\\)</p><p><strong style='color:var(--strongColor);'>New sum:</strong><br>\\((\\alpha-1)+(\\beta-1) = 5 - 2 = 3\\)</p><p><strong style='color:var(--strongColor);'>New product:</strong><br>\\((\\alpha-1)(\\beta-1) = \\alpha\\beta - (\\alpha+\\beta) + 1 = 6 - 5 + 1 = 2\\)</p><p><strong style='color:var(--strongColor);'>New equation:</strong><br>\\(x^2 - 3x + 2 = 0\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": ["Complex Numbers", "Argument", "Algebra"],
+    "Question": {
+      "content": "Express the complex number \\(\\dfrac{4 + 3i}{2 - i}\\) in the form \\(a + bi\\), and find its argument.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1 + 2i; argument = arctan(2) ≈ 63.43°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Dividing & Finding Argument</h4><p><strong style='color:var(--strongColor);'>Step 1 – Multiply by conjugate of denominator \\((2+i)\\):</strong></p><p>\\(\\dfrac{(4+3i)(2+i)}{(2-i)(2+i)}\\)</p><p><strong style='color:var(--strongColor);'>Numerator:</strong><br>\\((4+3i)(2+i) = 8 + 4i + 6i + 3i^2\\)<br>\\(= 8 + 10i - 3 = 5 + 10i\\)</p><p><strong style='color:var(--strongColor);'>Denominator:</strong><br>\\((2-i)(2+i) = 4 + 1 = 5\\)</p><p><strong style='color:var(--strongColor);'>Result:</strong><br>\\(\\dfrac{5 + 10i}{5} = 1 + 2i\\)</p><p><strong style='color:var(--strongColor);'>Step 2 – Find the argument:</strong><br>Here \\(a = 1 > 0\\), \\(b = 2 > 0\\) → first quadrant.</p><p>\\(\\arg(z) = \\arctan\\!\\left(\\dfrac{b}{a}\\right) = \\arctan\\!\\left(\\dfrac{2}{1}\\right) = \\arctan(2) \\approx 63.43°\\)</p><p>In radians: \\(\\approx 1.107\\) rad</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33a",
+    "topic": ["Sets", "Venn Diagrams"],
+    "Question": {
+      "content": "In a class of 150 students: 70 offer Mathematics, 65 offer Physics, 55 offer Chemistry, 30 offer Math & Physics, 25 offer Math & Chemistry, 20 offer Physics & Chemistry, and 10 offer all three. Find the number of students offering at least one subject.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "125"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Three-Set Inclusion-Exclusion</h4><p>Formula:</p><p>\\(|M \\cup P \\cup C| = |M|+|P|+|C| - |M\\cap P| - |M\\cap C| - |P\\cap C| + |M\\cap P\\cap C|\\)</p><p>Substituting:</p><p>\\(= 70 + 65 + 55 - 30 - 25 - 20 + 10\\)</p><p>\\(= 190 - 75 + 10\\)</p><p>\\(= \\mathbf{125}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33b",
+    "topic": ["Sets", "Venn Diagrams"],
+    "Question": {
+      "content": "In the same class of 150 students (with the data from Question 33a), find the number of students offering none of the three subjects.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "25"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Students Offering None</h4><p>From Question 33a, we found that 125 students offer at least one subject.</p><p>Students offering none = Total \\(-\\) at least one</p><p>\\(= 150 - 125 = \\mathbf{25}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "topic": ["Algebra", "Partial Fractions", "Polynomials"],
+    "Question": {
+      "content": "Resolve into partial fractions: \\(\\dfrac{6x + 5}{x^2 + x - 6}\\).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "23/(5(x + 3)) + 7/(5(x − 2))"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Partial Fractions</h4><p><strong style='color:var(--strongColor);'>Step 1 – Factor the denominator:</strong><br>\\(x^2 + x - 6 = (x+3)(x-2)\\)</p><p><strong style='color:var(--strongColor);'>Step 2 – Set up partial fractions:</strong><br>\\(\\dfrac{6x+5}{(x+3)(x-2)} = \\dfrac{A}{x+3} + \\dfrac{B}{x-2}\\)</p><p><strong style='color:var(--strongColor);'>Step 3 – Multiply through by \\((x+3)(x-2)\\):</strong><br>\\(6x + 5 = A(x-2) + B(x+3)\\)</p><p><strong style='color:var(--strongColor);'>Step 4 – Find A (let \\(x = -3\\)):</strong><br>\\(6(-3)+5 = A(-3-2)\\)<br>\\(-13 = -5A \\Rightarrow A = \\dfrac{13}{5}\\)</p><p><strong style='color:var(--strongColor);'>Step 5 – Find B (let \\(x = 2\\)):</strong><br>\\(6(2)+5 = B(2+3)\\)<br>\\(17 = 5B \\Rightarrow B = \\dfrac{17}{5}\\)</p><p><strong style='color:var(--strongColor);'>Answer:</strong><br>\\(\\dfrac{13}{5(x+3)} + \\dfrac{17}{5(x-2)}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "topic": ["Inequalities", "Absolute Value", "Algebra"],
+    "Question": {
+      "content": "Solve completely: \\(|3x - 2| \\leq 4\\).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "−2/3 ≤ x ≤ 2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Solving \\(|3x - 2| \\leq 4\\)</h4><p>For \\(|A| \\leq k\\): \\(-k \\leq A \\leq k\\)</p><p>\\(-4 \\leq 3x - 2 \\leq 4\\)</p><p>Add 2 to all three parts:</p><p>\\(-2 \\leq 3x \\leq 6\\)</p><p>Divide all parts by 3:</p><p>\\(-\\dfrac{2}{3} \\leq x \\leq 2\\)</p><p>The solution set is \\(\\left[-\\dfrac{2}{3},\\ 2\\right]\\).</p></div>"
+    }
+  }
+]
