@@ -1,0 +1,196 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "Algebra and trigonometry",
+    "code": "MTH 110.1",
+    "session": "Hard level",
+    "topics": ["Algebra", "Quadratic Equations", "Roots of Equations", "Complex Numbers", "Sets", "Venn Diagrams", "Inequalities", "Number Systems", "Real Numbers", "Functions", "Domain and Range", "Argument", "Cartesian Product", "Surds", "Simplification", "Absolute Value", "Inverse Functions", "Polynomials", "Remainder Theorem", "Irrational Numbers", "Set Theory", "Rationalization", "Modulus", "Discriminant", "Subsets", "Definitions", "Complement", "Partial Fractions"],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Quadratic Equations & Roots", "Symmetric Functions of Roots"],
+    "Question": {
+      "content": "If \\(\\alpha\\) and \\(\\beta\\) are the roots of the equation \\(2x^2 - 3x - 4 = 0\\), find the quadratic equation whose roots are \\(\\frac{\\alpha}{\\beta}\\) and \\(\\frac{\\beta}{\\alpha}\\).",
+      "type": "OBJ",
+      "options": ["\\(8x^2 + 25x + 8 = 0\\)", "\\(8x^2 - 25x + 8 = 0\\)", "\\(4x^2 + 25x + 4 = 0\\)", "\\(4x^2 - 25x + 4 = 0\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(8x^2 + 25x + 8 = 0\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Transforming Quadratic Roots</h4><p>First, find the sum and product of the original roots: \\(\\alpha + \\beta = \\frac{3}{2}\\) and \\(\\alpha\\beta = \\frac{-4}{2} = -2\\).</p><p><strong style='color: var(--strongColor);'>Step 1: Sum of new roots</strong></p><p>\\(\\frac{\\alpha}{\\beta} + \\frac{\\beta}{\\alpha} = \\frac{\\alpha^2 + \\beta^2}{\\alpha\\beta} = \\frac{(\\alpha + \\beta)^2 - 2\\alpha\\beta}{\\alpha\\beta}\\)</p><p>\\(= \\frac{(\\frac{3}{2})^2 - 2(-2)}{-2} = \\frac{\\frac{9}{4} + 4}{-2} = \\frac{\\frac{25}{4}}{-2} = -\\frac{25}{8}\\).</p><p><strong style='color: var(--strongColor);'>Step 2: Product of new roots</strong></p><p>\\(\\left(\\frac{\\alpha}{\\beta}\\right)\\left(\\frac{\\beta}{\\alpha}\\right) = 1\\).</p><p><strong style='color: var(--strongColor);'>Step 3: Form the equation</strong></p><p>\\(x^2 - (\\text{Sum})x + (\\text{Product}) = 0 \\implies x^2 - (-\\frac{25}{8})x + 1 = 0\\). Multiply by 8 to get \\(\\mathbf{8x^2 + 25x + 8 = 0}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Remainder & Factor Theorem", "Polynomial Division"],
+    "Question": {
+      "content": "When a polynomial \\(P(x)\\) is divided by \\(x - 1\\), the remainder is 3. When divided by \\(x + 2\\), the remainder is -3. Find the remainder when \\(P(x)\\) is divided by \\((x - 1)(x + 2)\\).",
+      "type": "OBJ",
+      "options": ["\\(2x + 1\\)", "\\(2x - 1\\)", "\\(x + 2\\)", "\\(-2x + 5\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(2x + 1\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding a Linear Remainder</h4><p>When dividing by a quadratic, the remainder is linear: \\(R(x) = ax + b\\).</p><p><strong style='color: var(--strongColor);'>Step 1: Apply the Remainder Theorem</strong></p><p>\\(P(1) = a(1) + b = 3 \\implies a + b = 3\\)</p><p>\\(P(-2) = a(-2) + b = -3 \\implies -2a + b = -3\\)</p><p><strong style='color: var(--strongColor);'>Step 2: Solve the simultaneous equations</strong></p><p>Subtract the second equation from the first: \\((a + b) - (-2a + b) = 3 - (-3) \\implies 3a = 6 \\implies a = 2\\).</p><p>Substitute \\(a = 2\\) into \\(a + b = 3 \\implies 2 + b = 3 \\implies b = 1\\).</p><p>The remainder is \\(\\mathbf{2x + 1}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Partial Fractions", "Repeated Factors"],
+    "Question": {
+      "content": "Express \\(\\frac{4x^2 - x + 3}{(x-1)^2(x+2)}\\) as partial fractions. What is the value of the constant numerator over the repeated linear factor \\((x-1)^2\\)?",
+      "type": "OBJ",
+      "options": ["1", "2", "3", "-2"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Solving for Repeated Root Constants</h4><p>Let \\(\\frac{4x^2 - x + 3}{(x-1)^2(x+2)} = \\frac{A}{x-1} + \\frac{B}{(x-1)^2} + \\frac{C}{x+2}\\).</p><p>Multiply by the common denominator: \\(4x^2 - x + 3 = A(x-1)(x+2) + B(x+2) + C(x-1)^2\\).</p><p><strong style='color: var(--strongColor);'>Step 1: Find B</strong></p><p>To isolate \\(B\\), set \\(x = 1\\):</p><p>\\(4(1)^2 - (1) + 3 = A(0) + B(1 + 2) + C(0)\\)</p><p>\\(6 = 3B \\implies B = \\mathbf{2}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Binomial Theorem & Expansion", "Independent Term"],
+    "Question": {
+      "content": "Find the term independent of \\(x\\) in the binomial expansion of \\(\\left(x^2 - \\frac{2}{x}\\right)^9\\).",
+      "type": "OBJ",
+      "options": ["5376", "-5376", "4608", "-4608"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5376"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding the Independent Term</h4><p>The general term is \\(T_{r+1} = \\binom{n}{r} a^{n-r} b^r\\).</p><p><strong style='color: var(--strongColor);'>Step 1: Setup the term</strong></p><p>\\(T_{r+1} = \\binom{9}{r} (x^2)^{9-r} (-2x^{-1})^r = \\binom{9}{r} (-2)^r x^{18 - 2r - r}\\).</p><p><strong style='color: var(--strongColor);'>Step 2: Solve for r</strong></p><p>For the term to be independent of \\(x\\), the exponent must be zero: \\(18 - 3r = 0 \\implies r = 6\\).</p><p><strong style='color: var(--strongColor);'>Step 3: Evaluate the coefficient</strong></p><p>\\(T_7 = \\binom{9}{6} (-2)^6 = 84 \\times 64 = \\mathbf{5376}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Trigonometry", "Compound Angles"],
+    "Question": {
+      "content": "If \\(\\tan A = \\frac{1}{2}\\) and \\(\\tan B = \\frac{1}{3}\\), evaluate \\(\\tan(A + B)\\).",
+      "type": "OBJ",
+      "options": ["1", "\\(-1\\)", "\\(\\frac{5}{6}\\)", "\\(\\frac{1}{6}\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Using the Tangent Addition Formula</h4><p>The identity for the sum of angles is: \\(\\tan(A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}\\).</p><p><strong style='color: var(--strongColor);'>Step 1: Substitute the values</strong></p><p>Numerator: \\(\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}\\).</p><p>Denominator: \\(1 - (\\frac{1}{2})(\\frac{1}{3}) = 1 - \\frac{1}{6} = \\frac{5}{6}\\).</p><p><strong style='color: var(--strongColor);'>Step 2: Simplify</strong></p><p>\\(\\tan(A + B) = \\frac{\\frac{5}{6}}{\\frac{5}{6}} = \\mathbf{1}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Complex Numbers", "De Moivre's Theorem"],
+    "Question": {
+      "content": "Evaluate \\(\\left( \\frac{1 + i}{\\sqrt{2}} \\right)^8\\).",
+      "type": "OBJ",
+      "options": ["1", "-1", "i", "-i"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Applying De Moivre's Theorem</h4><p><strong style='color: var(--strongColor);'>Step 1: Convert to Polar Form</strong></p><p>Let \\(Z = \\frac{1}{\\sqrt{2}} + i\\frac{1}{\\sqrt{2}}\\). The modulus is \\(r = \\sqrt{(\\frac{1}{\\sqrt{2}})^2 + (\\frac{1}{\\sqrt{2}})^2} = 1\\).</p><p>The argument is \\(\\theta = \\tan^{-1}(1) = \\frac{\\pi}{4}\\). Thus, \\(Z = \\cos(\\frac{\\pi}{4}) + i\\sin(\\frac{\\pi}{4})\\).</p><p><strong style='color: var(--strongColor);'>Step 2: Apply the Power</strong></p><p>Using De Moivre's Theorem: \\(Z^8 = \\cos(8 \\times \\frac{\\pi}{4}) + i\\sin(8 \\times \\frac{\\pi}{4})\\)</p><p>\\(= \\cos(2\\pi) + i\\sin(2\\pi) = 1 + i(0) = \\mathbf{1}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Logarithms", "Change of Base"],
+    "Question": {
+      "content": "Solve for \\(x\\) given the logarithmic equation: \\(\\log_2(x) + \\log_4(x) = 6\\).",
+      "type": "OBJ",
+      "options": ["16", "8", "64", "4"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "16"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Changing Bases in Logarithms</h4><p><strong style='color: var(--strongColor);'>Step 1: Make bases uniform</strong></p><p>Use the change of base rule: \\(\\log_4(x) = \\frac{\\log_2(x)}{\\log_2(4)} = \\frac{\\log_2(x)}{2} = 0.5\\log_2(x)\\).</p><p><strong style='color: var(--strongColor);'>Step 2: Substitute and Solve</strong></p><p>\\(\\log_2(x) + 0.5\\log_2(x) = 6 \\implies 1.5\\log_2(x) = 6\\).</p><p>\\(\\log_2(x) = \\frac{6}{1.5} = 4\\).</p><p>Convert to exponential form: \\(x = 2^4 = \\mathbf{16}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Functions & Composition", "Inverse Functions"],
+    "Question": {
+      "content": "If \\(f(x) = \\frac{2x - 3}{x + 4}\\), find the inverse function \\(f^{-1}(x)\\).",
+      "type": "OBJ",
+      "options": ["\\(\\frac{-4x - 3}{x - 2}\\)", "\\(\\frac{4x - 3}{2 - x}\\)", "\\(\\frac{4x + 3}{x - 2}\\)", "\\(\\frac{-4x + 3}{x + 2}\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{-4x - 3}{x - 2}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding Inverse of a Rational Function</h4><p><strong style='color: var(--strongColor);'>Step 1: Set \\(f(x) = y\\) and swap variables</strong></p><p>Let \\(x = \\frac{2y - 3}{y + 4}\\).</p><p><strong style='color: var(--strongColor);'>Step 2: Solve for y</strong></p><p>Multiply both sides by \\((y + 4)\\): \\(xy + 4x = 2y - 3\\).</p><p>Group \\(y\\) terms on one side: \\(xy - 2y = -4x - 3\\).</p><p>Factor out \\(y\\): \\(y(x - 2) = -4x - 3\\).</p><p>Divide to isolate \\(y\\): \\(y = \\mathbf{\\frac{-4x - 3}{x - 2}}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Number System & Indices", "Nested Surds"],
+    "Question": {
+      "content": "Simplify the nested radical: \\(\\sqrt{7 + 4\\sqrt{3}}\\).",
+      "type": "OBJ",
+      "options": ["\\(2 + \\sqrt{3}\\)", "\\(1 + 2\\sqrt{3}\\)", "\\(3 + \\sqrt{2}\\)", "\\(\\sqrt{3} + 4\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(2 + \\sqrt{3}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Denesting Radicals</h4><p>We look for an expression of the form \\((\\sqrt{a} + \\sqrt{b})^2 = a + b + 2\\sqrt{ab}\\) that matches \\(7 + 4\\sqrt{3}\\).</p><p><strong style='color: var(--strongColor);'>Step 1: Equate components</strong></p><p>Rewrite \\(4\\sqrt{3}\\) as \\(2\\sqrt{12}\\). So we need \\(a + b = 7\\) and \\(ab = 12\\).</p><p><strong style='color: var(--strongColor);'>Step 2: Solve for a and b</strong></p><p>The two numbers that add to 7 and multiply to 12 are 4 and 3.</p><p>Therefore, \\(7 + 4\\sqrt{3} = (\\sqrt{4} + \\sqrt{3})^2 = (2 + \\sqrt{3})^2\\).</p><p>Taking the square root gives \\(\\mathbf{2 + \\sqrt{3}}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Sequences & Series", "Arithmetic Progression"],
+    "Question": {
+      "content": "Find the sum of all two-digit numbers that leave a remainder of 1 when divided by 4.",
+      "type": "OBJ",
+      "options": ["1210", "1188", "1254", "1300"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1210"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Summing an Arithmetic Series</h4><p><strong style='color: var(--strongColor);'>Step 1: Identify the sequence</strong></p><p>The numbers are 13, 17, 21, ..., 97. This is an AP with first term \\(a = 13\\) and common difference \\(d = 4\\).</p><p><strong style='color: var(--strongColor);'>Step 2: Find the number of terms (n)</strong></p><p>Using the nth term formula \\(T_n = a + (n-1)d\\):</p><p>\\(97 = 13 + (n-1)4 \\implies 84 = 4(n-1) \\implies n - 1 = 21 \\implies n = 22\\).</p><p><strong style='color: var(--strongColor);'>Step 3: Calculate the sum</strong></p><p>\\(S_n = \\frac{n}{2}(a + l) = \\frac{22}{2}(13 + 97) = 11(110) = \\mathbf{1210}\\).</p></div>"
+    }
+  }
+]
