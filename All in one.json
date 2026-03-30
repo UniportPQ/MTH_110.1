@@ -1,0 +1,484 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "Algebra and trigonometry",
+    "code": "MTH 110.1",
+    "session": "All in 1",
+    "topics":["Set Theory & Logic", "Subsets", "Power Sets", "Venn Diagrams", "Word Problems", "Number System & Indices", "Surds", "Rationalization", "Laws of Indices", "Algebraic Expressions & Polynomials", "Factorization", "Polynomials", "Degree", "Functions & Composition", "Domain", "Composition", "Quadratic Equations & Roots", "Solving Methods", "Sum and Product of Roots", "Remainder & Factor Theorem", "Remainder Theorem", "Factor Theorem", "Partial Fractions", "Linear Denominators", "Solving for Constants", "Binomial Theorem & Expansion", "General Term","Coefficient Extraction", "Sequences & Series", "Arithmetic Progression (AP)", "Geometric Progression (GP)", "Relations", "Reflexive Property", "Equivalence Relations", "Complex Numbers", "Conjugates", "Operations", "Trigonometry", "Basic Identities", "Solving Equations", "Logarithms", "Laws of Logarithms", "Conversion Forms"],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Set Theory & Logic", "Subsets", "Power Sets"],
+    "Question": {
+      "content": "If set \\(X = \\{a, b, c, d\\}\\), what is the cardinality of its power set \\(P(X)\\)?",
+      "type": "OBJ",
+      "options": ["4", "8", "16", "32"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "16"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding Power Set Cardinality</h4><p>The cardinality of a power set is given by the formula \\(2^n\\), where \\(n\\) is the number of elements in the original set.</p><p><strong style='color: var(--strongColor);'>Step 1:</strong> Count the elements in set \\(X\\). There are 4 elements.</p><p><strong style='color: var(--strongColor);'>Step 2:</strong> Apply the formula: \\(2^4 = 16\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Set Theory & Logic", "Venn Diagrams", "Word Problems"],
+    "Question": {
+      "content": "Out of 120 UNIPORT students on ProjectPQ, 75 downloaded Algebra past questions and 55 downloaded Trigonometry past questions. If 20 students downloaded neither, how many downloaded both?",
+      "type": "OBJ",
+      "options": ["10", "20", "30", "40"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "30"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Venn Diagram Word Problem</h4><p>Let \\(U\\) be the total number of students. \\(n(U) = 120\\).</p><p>Number of students who downloaded at least one material = \\(120 - 20 = 100\\).</p><p>Using the principle of inclusion-exclusion: \\(n(A \\cup B) = n(A) + n(B) - n(A \\cap B)\\)</p><p>\\(100 = 75 + 55 - n(A \\cap B)\\)</p><p>\\(n(A \\cap B) = 130 - 100 = \\mathbf{30}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Number System & Indices", "Surds", "Rationalization"],
+    "Question": {
+      "content": "Rationalize the denominator of \\(\\frac{3}{\\sqrt{5} - \\sqrt{2}}\\).",
+      "type": "OBJ",
+      "options": ["\\(\\sqrt{5} + \\sqrt{2}\\)", "\\(\\sqrt{5} - \\sqrt{2}\\)", "\\(3(\\sqrt{5} + \\sqrt{2})\\)", "\\(\\frac{\\sqrt{5} + \\sqrt{2}}{3}\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\sqrt{5} + \\sqrt{2}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Rationalizing a Denominator</h4><p>Multiply the numerator and the denominator by the conjugate of the denominator, which is \\(\\sqrt{5} + \\sqrt{2}\\).</p><p>\\(\\frac{3(\\sqrt{5} + \\sqrt{2})}{(\\sqrt{5} - \\sqrt{2})(\\sqrt{5} + \\sqrt{2})}\\)</p><p>The denominator becomes \\(5 - 2 = 3\\).</p><p>The expression simplifies to \\(\\frac{3(\\sqrt{5} + \\sqrt{2})}{3} = \\mathbf{\\sqrt{5} + \\sqrt{2}}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Number System & Indices", "Laws of Indices"],
+    "Question": {
+      "content": "Simplify the expression: \\( \\frac{8^{n+1} \\times 2^{2n}}{4^{2n+1}} \\).",
+      "type": "OBJ",
+      "options": ["\\(2^{n+1}\\)", "\\(2^{n-1}\\)", "\\(2^n\\)", "\\(2^{n+2}\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(2^{n+1}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Applying Laws of Indices</h4><p>Express all terms with a common base of 2.</p><p>\\(8^{n+1} = (2^3)^{n+1} = 2^{3n+3}\\)</p><p>\\(4^{2n+1} = (2^2)^{2n+1} = 2^{4n+2}\\)</p><p>Substitute back: \\(\\frac{2^{3n+3} \\times 2^{2n}}{2^{4n+2}} = \\frac{2^{5n+3}}{2^{4n+2}}\\)</p><p>Subtract the exponents: \\(5n + 3 - (4n + 2) = n + 1\\). Thus, the answer is \\(\\mathbf{2^{n+1}}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Algebraic Expressions & Polynomials", "Factorization"],
+    "Question": {
+      "content": "Factorize completely: \\(3x^2 - 27\\).",
+      "type": "OBJ",
+      "options": ["\\(3(x - 3)(x + 3)\\)", "\\(3(x - 9)(x + 9)\\)", "\\((3x - 9)(x + 3)\\)", "\\(3(x - 3)^2\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(3(x - 3)(x + 3)\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Factorizing an Expression</h4><p><strong style='color: var(--strongColor);'>Step 1:</strong> Factor out the common term, which is 3.</p><p>\\(3(x^2 - 9)\\)</p><p><strong style='color: var(--strongColor);'>Step 2:</strong> Recognize \\(x^2 - 9\\) as a difference of two squares.</p><p>\\(x^2 - 3^2 = (x - 3)(x + 3)\\)</p><p>Putting it together: \\(\\mathbf{3(x - 3)(x + 3)}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Algebraic Expressions & Polynomials", "Polynomials", "Degree"],
+    "Question": {
+      "content": "What is the degree of the polynomial \\(P(x) = 4x^3 - x^5 + 2x - 7\\)?",
+      "type": "OBJ",
+      "options": ["3", "5", "4", "7"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding the Degree of a Polynomial</h4><p>The degree of a polynomial in a single variable is the highest exponent of that variable present in the expression.</p><p>In the polynomial \\(P(x) = 4x^3 - x^5 + 2x - 7\\), the terms have exponents 3, 5, 1, and 0.</p><p>The highest exponent is \\(\\mathbf{5}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Functions & Composition", "Domain"],
+    "Question": {
+      "content": "Find the domain of the function \\(f(x) = \\frac{1}{\\sqrt{x - 4}}\\).",
+      "type": "OBJ",
+      "options": ["\\(x \\ge 4\\)", "\\(x > 4\\)", "\\(x \\ne 4\\)", "All real numbers"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(x > 4\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Determining the Domain</h4><p>For the function to be defined, two conditions must be met:</p><p>1. The expression under the square root must be non-negative: \\(x - 4 \\ge 0\\).</p><p>2. The denominator cannot be zero: \\(\\sqrt{x - 4} \\ne 0\\), so \\(x - 4 \\ne 0\\).</p><p>Combining these conditions gives \\(x - 4 > 0\\), which means \\(\\mathbf{x > 4}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Functions & Composition", "Composition"],
+    "Question": {
+      "content": "If \\(f(x) = 3x - 1\\) and \\(g(x) = x^2\\), find \\((g \\circ f)(x)\\).",
+      "type": "OBJ",
+      "options": ["\\(9x^2 - 6x + 1\\)", "\\(3x^2 - 1\\)", "\\(9x^2 - 1\\)", "\\(3x^2 - 6x + 1\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(9x^2 - 6x + 1\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Function Composition</h4><p>The composition \\((g \\circ f)(x)\\) means \\(g(f(x))\\).</p><p>Substitute \\(f(x)\\) into \\(g(x)\\):</p><p>\\(g(3x - 1) = (3x - 1)^2\\)</p><p>Expand the squared binomial:</p><p>\\((3x - 1)(3x - 1) = 9x^2 - 3x - 3x + 1 = \\mathbf{9x^2 - 6x + 1}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Quadratic Equations & Roots", "Solving Methods"],
+    "Question": {
+      "content": "Find the roots of the quadratic equation \\(x^2 - 3x - 88 = 0\\).",
+      "type": "OBJ",
+      "options": ["-8, 11", "8, -11", "-8, -11", "none of the above"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-8, 11"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Solving by Factorization</h4><p>We need two numbers that multiply to \\(-88\\) and add up to \\(-3\\).</p><p>These numbers are \\(-11\\) and \\(8\\).</p><p>So, the equation factors as \\((x - 11)(x + 8) = 0\\).</p><p>Setting each factor to zero gives \\(x = 11\\) and \\(x = -8\\). The roots are <strong style='color: var(--strongColor);'>-8, 11</strong>.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Quadratic Equations & Roots", "Sum and Product of Roots"],
+    "Question": {
+      "content": "If the sum of the roots of \\(2x^2 + kx + 8 = 0\\) is 5, find the value of \\(k\\).",
+      "type": "OBJ",
+      "options": ["10", "-10", "5", "-5"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-10"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Using the Sum of Roots Formula</h4><p>For a quadratic equation \\(ax^2 + bx + c = 0\\), the sum of the roots is given by \\(-\\frac{b}{a}\\).</p><p>Here, \\(a = 2\\) and \\(b = k\\).</p><p>Given the sum is 5: \\(-\\frac{k}{2} = 5\\)</p><p>Multiply both sides by -2: \\(k = \\mathbf{-10}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": ["Remainder & Factor Theorem", "Remainder Theorem"],
+    "Question": {
+      "content": "Find the remainder when \\(2x^3 - 3x^2 + x - 4\\) is divided by \\(x + 1\\).",
+      "type": "OBJ",
+      "options": ["-10", "10", "-4", "4"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-10"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Applying the Remainder Theorem</h4><p>If \\(P(x)\\) is divided by \\(x - a\\), the remainder is \\(P(a)\\). Here, we divide by \\(x + 1\\), so \\(a = -1\\).</p><p>Evaluate \\(P(-1)\\):</p><p>\\(P(-1) = 2(-1)^3 - 3(-1)^2 + (-1) - 4\\)</p><p>\\(= -2 - 3 - 1 - 4 = \\mathbf{-10}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Remainder & Factor Theorem", "Factor Theorem"],
+    "Question": {
+      "content": "If \\(x - 2\\) is a factor of \\(x^3 - kx^2 + 2x + 8\\), find the value of \\(k\\).",
+      "type": "OBJ",
+      "options": ["2", "3", "4", "5"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Applying the Factor Theorem</h4><p>By the Factor Theorem, if \\(x - 2\\) is a factor, then \\(P(2) = 0\\).</p><p>Substitute \\(x = 2\\) into the polynomial:</p><p>\\((2)^3 - k(2)^2 + 2(2) + 8 = 0\\)</p><p>\\(8 - 4k + 4 + 8 = 0\\)</p><p>\\(20 - 4k = 0 \\implies 4k = 20 \\implies \\mathbf{k = 5}\\)</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": ["Partial Fractions", "Linear Denominators"],
+    "Question": {
+      "content": "Express \\( \\frac{5x - 1}{(x-1)(x+1)} \\) as partial fractions. What is the numerator of the term with denominator \\(x-1\\)?",
+      "type": "OBJ",
+      "options": ["2", "3", "5", "1"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Decomposing into Partial Fractions</h4><p>Let \\( \\frac{5x - 1}{(x-1)(x+1)} = \\frac{A}{x-1} + \\frac{B}{x+1} \\).</p><p>Using the cover-up method for \\(A\\) (the numerator for \\(x-1\\)), we substitute \\(x = 1\\) into the remaining expression:</p><p>\\(A = \\frac{5(1) - 1}{1 + 1} = \\frac{4}{2} = \\mathbf{2}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Partial Fractions", "Solving for Constants"],
+    "Question": {
+      "content": "In the decomposition \\( \\frac{x+5}{(x-2)(x+3)} = \\frac{P}{x-2} + \\frac{Q}{x+3} \\), find the value of \\(P + Q\\).",
+      "type": "OBJ",
+      "options": ["1", "2", "0", "-1"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding Sum of Constants</h4><p>Multiply through by the common denominator: \\(x + 5 = P(x + 3) + Q(x - 2)\\).</p><p>Set \\(x = 2\\): \\(7 = P(5) \\implies P = \\frac{7}{5}\\).</p><p>Set \\(x = -3\\): \\(2 = Q(-5) \\implies Q = -\\frac{2}{5}\\).</p><p>Therefore, \\(P + Q = \\frac{7}{5} - \\frac{2}{5} = \\frac{5}{5} = \\mathbf{1}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": ["Binomial Theorem & Expansion", "General Term"],
+    "Question": {
+      "content": "What is the 4th term in the binomial expansion of \\((x + y)^6\\)?",
+      "type": "OBJ",
+      "options": ["\\(20x^3y^3\\)", "\\(15x^4y^2\\)", "\\(15x^2y^4\\)", "\\(20x^4y^2\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(20x^3y^3\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding a Specific Term</h4><p>The formula for the \\(r+1\\) term is \\(T_{r+1} = \\binom{n}{r} a^{n-r} b^r\\).</p><p>For the 4th term, \\(r = 3\\). Here, \\(n = 6\\), \\(a = x\\), and \\(b = y\\).</p><p>\\(T_4 = \\binom{6}{3} x^{6-3} y^3 = 20 x^3 y^3\\).</p><p>The 4th term is \\(\\mathbf{20x^3y^3}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Binomial Theorem & Expansion", "Coefficient Extraction"],
+    "Question": {
+      "content": "Find the coefficient of \\(x^2\\) in the expansion of \\((2 + 3x)^4\\).",
+      "type": "OBJ",
+      "options": ["216", "108", "54", "36"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "216"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Extracting Coefficients</h4><p>Using the general term formula: \\(\\binom{n}{r} a^{n-r} b^r\\).</p><p>We want the \\(x^2\\) term, so \\(r = 2\\). Let \\(a = 2\\), \\(b = 3x\\), and \\(n = 4\\).</p><p>The term is \\(\\binom{4}{2} (2)^2 (3x)^2\\).</p><p>\\(= 6 \\times 4 \\times 9x^2 = \\mathbf{216}x^2\\). The coefficient is 216.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": ["Sequences & Series", "Arithmetic Progression (AP)"],
+    "Question": {
+      "content": "The 3rd term of an AP is 10 and the 6th term is 22. Find the common difference.",
+      "type": "OBJ",
+      "options": ["3", "4", "5", "6"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding the Common Difference</h4><p>The \\(n\\)-th term of an AP is \\(T_n = a + (n-1)d\\).</p><p>We have two equations:</p><p>1) \\(a + 2d = 10\\)</p><p>2) \\(a + 5d = 22\\)</p><p>Subtract the first equation from the second: \\(3d = 12\\), which gives \\(\\mathbf{d = 4}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Sequences & Series", "Geometric Progression (GP)"],
+    "Question": {
+      "content": "Find the sum to infinity of the geometric progression: 8, 4, 2, 1, ...",
+      "type": "OBJ",
+      "options": ["12", "14", "16", "32"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "16"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Sum to Infinity of a GP</h4><p>The formula for the sum to infinity is \\(S_\\infty = \\frac{a}{1 - r}\\), provided \\(|r| < 1\\).</p><p>The first term \\(a = 8\\) and the common ratio \\(r = \\frac{4}{8} = 0.5\\).</p><p>\\(S_\\infty = \\frac{8}{1 - 0.5} = \\frac{8}{0.5} = \\mathbf{16}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Relations", "Reflexive Property"],
+    "Question": {
+      "content": "A relation \\(R\\) on a set \\(A\\) is called reflexive if for every \\(a \\in A\\):",
+      "type": "OBJ",
+      "options": ["\\((a, b) \\in R \\Rightarrow (b, a) \\in R\\)", "\\((a, a) \\in R\\)", "\\((a, b) \\in R \\text{ and } (b, c) \\in R \\Rightarrow (a, c) \\in R\\)", "\\(A \\subseteq R\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\((a, a) \\in R\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Definition of Reflexive Relation</h4><p>By definition, a relation is reflexive if every element relates to itself.</p><p>Mathematically, this is written as \\(\\mathbf{(a, a) \\in R}\\) for all elements \\(a\\) in the set \\(A\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": ["Relations", "Equivalence Relations"],
+    "Question": {
+      "content": "Which of the following relations on the set of integers is an equivalence relation?",
+      "type": "OBJ",
+      "options": ["Less than (<)", "Is a multiple of", "Has the same absolute value as", "Is greater than or equal to (>=)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Has the same absolute value as"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Identifying Equivalence Relations</h4><p>An equivalence relation must be reflexive, symmetric, and transitive.</p><p>'<strong style='color: var(--strongColor);'>Has the same absolute value as</strong>' satisfies all three:</p><p>- Reflexive: \\(|a| = |a|\\)</p><p>- Symmetric: If \\(|a| = |b|\\), then \\(|b| = |a|\\)</p><p>- Transitive: If \\(|a| = |b|\\) and \\(|b| = |c|\\), then \\(|a| = |c|\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": ["Complex Numbers", "Conjugates"],
+    "Question": {
+      "content": "What is the conjugate of the complex number \\(Z = -3 + 4i\\)?",
+      "type": "OBJ",
+      "options": ["\\(3 + 4i\\)", "\\(-3 - 4i\\)", "\\(3 - 4i\\)", "\\(4 - 3i\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(-3 - 4i\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Finding Complex Conjugates</h4><p>To find the conjugate of a complex number \\(a + bi\\), change the sign of the imaginary part to get \\(a - bi\\).</p><p>For \\(Z = -3 + 4i\\), changing the sign of the imaginary part gives \\(\\mathbf{-3 - 4i}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": ["Complex Numbers", "Operations"],
+    "Question": {
+      "content": "Simplify the expression: \\( (2 + 3i)(1 - 2i) \\).",
+      "type": "OBJ",
+      "options": ["\\(8 - i\\)", "\\(8 + i\\)", "\\(-4 - i\\)", "\\(2 - 6i\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(8 - i\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Multiplying Complex Numbers</h4><p>Use the distributive property (FOIL):</p><p>\\(2(1) + 2(-2i) + 3i(1) + 3i(-2i)\\)</p><p>\\(= 2 - 4i + 3i - 6i^2\\)</p><p>Since \\(i^2 = -1\\), substitute and combine like terms:</p><p>\\(= 2 - i - 6(-1) = 2 - i + 6 = \\mathbf{8 - i}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": ["Trigonometry", "Basic Identities"],
+    "Question": {
+      "content": "Simplify the trigonometric expression: \\( \\sec^2\\theta - 1 \\).",
+      "type": "OBJ",
+      "options": ["\\(\\cos^2\\theta\\)", "\\(\\sin^2\\theta\\)", "\\(\\tan^2\\theta\\)", "\\(\\cot^2\\theta\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\tan^2\\theta\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Pythagorean Identities</h4><p>One of the fundamental Pythagorean identities in trigonometry is:</p><p>\\(1 + \\tan^2\\theta = \\sec^2\\theta\\)</p><p>By rearranging this identity, subtracting 1 from both sides gives:</p><p>\\(\\sec^2\\theta - 1 = \\mathbf{\\tan^2\\theta}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": ["Trigonometry", "Solving Equations"],
+    "Question": {
+      "content": "Solve for \\(\\theta\\) if \\(2\\sin\\theta - 1 = 0\\) for \\(0^\\circ \\le \\theta \\le 90^\\circ\\).",
+      "type": "OBJ",
+      "options": ["\\(30^\\circ\\)", "\\(45^\\circ\\)", "\\(60^\\circ\\)", "\\(90^\\circ\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(30^\\circ\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Solving a Basic Trigonometric Equation</h4><p>First, isolate \\(\\sin\\theta\\):</p><p>\\(2\\sin\\theta = 1\\)</p><p>\\(\\sin\\theta = \\frac{1}{2}\\)</p><p>For angles between \\(0^\\circ\\) and \\(90^\\circ\\), the angle whose sine is \\(\\frac{1}{2}\\) is \\(\\mathbf{30^\\circ}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": ["Logarithms", "Laws of Logarithms"],
+    "Question": {
+      "content": "Evaluate the expression: \\( \\log_2 32 - \\log_2 8 \\).",
+      "type": "OBJ",
+      "options": ["2", "3", "4", "5"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Quotient Rule for Logarithms</h4><p>Using the law of logarithms: \\(\\log_b(m) - \\log_b(n) = \\log_b(\\frac{m}{n})\\).</p><p>\\(\\log_2 32 - \\log_2 8 = \\log_2(\\frac{32}{8}) = \\log_2(4)\\).</p><p>Since \\(2^2 = 4\\), \\(\\log_2(4) = \\mathbf{2}\\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": ["Logarithms", "Conversion Forms"],
+    "Question": {
+      "content": "If \\( \\log_x 81 = 4 \\), find the value of \\(x\\).",
+      "type": "OBJ",
+      "options": ["2", "3", "4", "9"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 12px;'>Logarithmic to Exponential Form</h4><p>The equation \\(\\log_b a = c\\) is equivalent to \\(b^c = a\\).</p><p>Converting \\(\\log_x 81 = 4\\) to exponential form gives:</p><p>\\(x^4 = 81\\).</p><p>Taking the 4th root of both sides, \\(x = \\sqrt[4]{81} = \\mathbf{3}\\).</p></div>"
+    }
+  }
+]
